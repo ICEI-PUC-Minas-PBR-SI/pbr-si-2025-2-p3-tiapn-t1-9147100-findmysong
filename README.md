@@ -16,7 +16,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Heitor Carlos Rezende Junior
 * Samuel Ribeiro Faleiro
 
-## Cleia Marcia Gomes Amaral
+## Orientador
 
 * Cleia Marcia Gomes Amaral
 
