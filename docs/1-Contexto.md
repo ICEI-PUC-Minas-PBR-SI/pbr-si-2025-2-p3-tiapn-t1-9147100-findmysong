@@ -1,46 +1,81 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Este projeto tem como objetivo o desenvolvimento de uma aplicação capaz de **buscar músicas a partir de trechos de suas letras**, oferecendo uma solução prática para um problema recorrente: a dificuldade de identificar uma canção quando o usuário não se lembra do título ou do artista.  
+
+## Contexto  
+
+Com a popularização dos serviços de streaming, ouvir música tornou-se parte do cotidiano. No entanto, os aplicativos tradicionais nem sempre oferecem recursos eficientes de pesquisa por letras. O mercado musical digital, em constante crescimento, abre espaço para soluções inovadoras que melhorem a experiência do usuário.  
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Apesar da ampla difusão dos serviços de streaming e aplicativos de música, muitos usuários enfrentam dificuldades quando não lembram do título exato de uma canção ou do nome do artista. Na maioria das vezes, o que permanece na memória é apenas um pequeno trecho da letra, o que torna a busca frustrante, já que as ferramentas tradicionais geralmente não oferecem suporte eficiente para esse tipo de pesquisa.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Essa limitação prejudica a experiência do usuário, que acaba gastando tempo excessivo tentando localizar a música desejada ou até mesmo desistindo da procura. Além disso, estudantes que utilizam músicas como recurso pedagógico — por exemplo, no aprendizado de idiomas como o inglês — também encontram barreiras na hora de identificar canções a partir de versos específicos.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Diante desse cenário, existe a necessidade de um sistema capaz de realizar buscas por trechos de letras, oferecendo resultados rápidos, precisos e integrados a plataformas oficiais de streaming. Assim, o problema que se apresenta não é apenas de ordem técnica, mas também de experiência do usuário, reforçando a relevância da solução
+proposta.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Desenvolver um sistema que possibilite a busca de músicas por trechos de suas letras, de forma automatizada e integrada a plataformas de streaming credenciadas.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Objetivos Específicos
+ Criar uma interface simples, intuitiva e acessível para digitação do trecho e visualização dos resultados.
+ Integrar o sistema a uma base de dados ou API confiável, garantindo precisão na busca das letras.
+ Direcionar os usuários para plataformas oficiais de streaming, respeitando direitos autorais.
+ Implementar mecanismos de feedback para avaliar a qualidade das buscas realizadas.
+ Desenvolver relatórios de uso e desempenho, identificando músicas e artistas mais pesquisados.
+ Realizar testes de usabilidade e performance, assegurando que o sistema atenda às necessidades dos diferentes perfis de usuários.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A aplicação foi escolhida pela sua relevância em resolver um problema comum: **a dificuldade de encontrar músicas quando o usuário lembra apenas de um trecho da letra**.  
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+- **Impacto prático:** torna a busca mais rápida, intuitiva e acessível.  
+- **Impacto social:** auxilia estudantes de idiomas e profissionais da música.  
+- **Impacto no mercado:** valoriza o consumo legal, ao direcionar para plataformas oficiais de streaming.  
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Os **objetivos específicos** foram definidos para garantir:  
+1. **Praticidade:** interface simples e intuitiva.  
+2. **Confiabilidade:** integração com APIs/bases oficiais.  
+3. **Aprimoramento contínuo:** mecanismos de feedback e relatórios de uso.  
 
-## Público-Alvo
+---
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+## Abordagem Metodológica  
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Para esclarecer a problemática e validar a solução, o grupo pode utilizar:  
+- **Questionários online:** identificar dificuldades reais dos usuários.  
+- **Entrevistas rápidas:** com estudantes e músicos, avaliando a utilidade pedagógica e profissional.  
+- **Dados estatísticos:** relatórios da IFPI sobre o crescimento do mercado musical digital.  
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Esses recursos reforçam a importância do projeto e sustentam a proposta de desenvolvimento do sistema.  
+
+
+## Público-Alvo  
+
+A aplicação se destina a diferentes perfis de usuários, com níveis variados de conhecimento tecnológico e motivações distintas:  
+
+- **Usuários comuns:**  
+  - Pessoas que utilizam o sistema ocasionalmente para encontrar músicas.  
+  - Relação com tecnologia: usam aplicativos de streaming no dia a dia, mas não têm perfil técnico.  
+
+- **Estudantes de idiomas:**  
+  - Usam músicas como ferramenta pedagógica no aprendizado de línguas estrangeiras.  
+  - Relação com tecnologia: familiarizados com aplicativos educacionais e de música, buscam praticidade e precisão.  
+
+- **Músicos e pesquisadores:**  
+  - Utilizam o sistema para composições, estudos e análises musicais.  
+  - Relação com tecnologia: maior familiaridade com softwares de apoio, valorizam ferramentas de busca avançada.  
+
+- **Administradores:**  
+  - Responsáveis por manter a base de letras/artistas atualizada e garantir o funcionamento da aplicação.  
+  - Relação com tecnologia: possuem conhecimento técnico intermediário ou avançado.  
+
+- **Professores e educadores:**  
+  - Utilizam a aplicação como recurso de apoio em sala de aula ou pesquisas acadêmicas.  
+  - Relação com tecnologia: usam ferramentas digitais no ensino e valorizam interfaces simples.  
+
+---
