@@ -6,7 +6,7 @@
 
 `3º Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Este projeto tem como objetivo o desenvolvimento de uma aplicação capaz de buscar músicas a partir de trechos de suas letras, oferecendo uma solução prática para um problema recorrente: a dificuldade de identificar uma canção quando o usuário não se lembra do título ou do artista.
 
 ## Integrantes
 
