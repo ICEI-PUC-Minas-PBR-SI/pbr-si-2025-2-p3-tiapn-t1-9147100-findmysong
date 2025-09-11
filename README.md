@@ -6,7 +6,9 @@
 
 `3º Semestre`
 
-Este projeto tem como objetivo o desenvolvimento de uma aplicação capaz de buscar músicas a partir de trechos de suas letras, oferecendo uma solução prática para um problema recorrente: a dificuldade de identificar uma canção quando o usuário não se lembra do título ou do artista.
+O projeto consiste no desenvolvimento de um sistema inovador de busca de músicas que possibilita ao usuário encontrar canções a partir de pequenos trechos de suas letras. Diferente dos aplicativos convencionais, que exigem o nome da música ou do artista, a proposta é oferecer uma ferramenta prática e intuitiva, capaz de localizar a canção desejada mesmo quando a lembrança é limitada a uma única palavra ou frase da letra.
+
+Além de facilitar o acesso às músicas, o sistema busca atender diferentes perfis de usuários, desde ouvintes ocasionais até músicos e estudantes. O projeto prevê ainda recursos de feedback, relatórios de uso e integração com plataformas credenciadas de streaming, garantindo não apenas a usabilidade, mas também a relevância técnica e a contribuição para o mercado em constante crescimento da música digital.
 
 ## Integrantes
 
