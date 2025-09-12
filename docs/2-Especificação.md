@@ -53,49 +53,36 @@ Esta seção apresenta as especificações do sistema de busca de músicas por t
 
 
 ## Requisitos
+  
+### Requisitos Funcionais (RF)  
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
+| ID     | Descrição do Requisito                                         | Prioridade |  
+|--------|----------------------------------------------------------------|------------|  
+| RF-001 | Permitir a busca de músicas por trecho de letra                | ALTA       |  
+| RF-002 | Exibir título, artista e opções de streaming                   | ALTA       |  
+| RF-003 | Permitir feedback dos usuários sobre os resultados             | MÉDIA      |  
+| RF-004 | Gerar relatórios de uso (músicas/artistas mais buscados)       | MÉDIA      |  
+| RF-005 | Permitir que administradores atualizem layout e cadastros      | ALTA       |  
+| RF-006 | Direcionar para plataformas de streaming oficiais              | ALTA       |  
 
-### Requisitos Funcionais
+### Requisitos Não Funcionais (RNF)  
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| ID      | Descrição do Requisito                                         | Prioridade |  
+|---------|----------------------------------------------------------------|------------|  
+| RNF-001 | O sistema deve ser responsivo (desktop e mobile)              | ALTA       |  
+| RNF-002 | O tempo de resposta deve ser inferior a 3 segundos por busca  | MÉDIA      |  
+| RNF-003 | A interface deve ser intuitiva e acessível                    | ALTA       |  
+| RNF-004 | O sistema deve respeitar direitos autorais (sem exibir mídia direta) | ALTA  |  
+| RNF-005 | O sistema deve suportar pelo menos 500 buscas simultâneas     | MÉDIA      |  
 
-### Requisitos não Funcionais
+---
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+## Restrições  
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+| ID   | Restrição                                                                 |  
+|------|----------------------------------------------------------------------------|  
+| 01   | O projeto deverá ser entregue até o final do semestre letivo.             |  
+| 02   | Não será desenvolvido um módulo de backend robusto, apenas integração com APIs externas. |  
+| 03   | O sistema deverá operar utilizando apenas APIs oficiais/licenciadas de música. |  
+| 04   | O desenvolvimento deve ser feito em ambiente web, com suporte multiplataforma. |  
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
-## Restrições
-
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
