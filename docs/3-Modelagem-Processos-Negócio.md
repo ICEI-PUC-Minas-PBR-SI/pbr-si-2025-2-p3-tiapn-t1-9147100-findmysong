@@ -1,10 +1,5 @@
 ## 3. Modelagem dos Processos de Negócio
 
-
-> **Links Úteis**:
-> - [Modelagem de Processos AS-IS x TO-BE](https://dheka.com.br/modelagem-as-is-to-be/)
-> - [20 Dicas Práticas de Modelagem de Processos](https://dheka.com.br/20-dicas-praticas-de-modelagem-de-processos/)
-
 ## 3.1. Modelagem da Situação Atual (AS-IS)  
 Atualmente, quando um usuário deseja encontrar uma música lembrando apenas um trecho da letra, ele precisa recorrer a buscas manuais em sites, fóruns ou até mesmo em comunidades online. Muitas vezes, esse processo exige várias tentativas, não traz resultados confiáveis e pode gerar frustração, pois depende de informações incompletas ou incorretas.  
 
