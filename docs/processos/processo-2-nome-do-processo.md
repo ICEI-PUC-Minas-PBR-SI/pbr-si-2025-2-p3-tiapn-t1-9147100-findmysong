@@ -3,6 +3,9 @@
 **Oportunidades de melhoria:**  
 Permitir que administradores atualizem parâmetros do sistema de forma centralizada, sem necessidade de alterações manuais em código. Isso inclui ajustes na interface, registro de eventos e feriados, além de configurações de backend e frontend.  
 
+<img width="958" height="594" alt="image" src="https://github.com/user-attachments/assets/2914d3ef-41a5-42ac-a913-865bd19310f7" />
+
+
 **Fluxo BPMN (descrição):**  
 1. Administrador acessa o painel administrativo.  
 2. Seleciona a funcionalidade desejada (interface, eventos, feriados, backend ou frontend).  
