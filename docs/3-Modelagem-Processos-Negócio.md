@@ -5,20 +5,27 @@
 > - [Modelagem de Processos AS-IS x TO-BE](https://dheka.com.br/modelagem-as-is-to-be/)
 > - [20 Dicas Práticas de Modelagem de Processos](https://dheka.com.br/20-dicas-praticas-de-modelagem-de-processos/)
 
-### 3.1. Modelagem da situação atual (Modelagem AS IS)
+## 3.1. Modelagem da Situação Atual (AS-IS)  
+Atualmente, quando um usuário deseja encontrar uma música lembrando apenas um trecho da letra, ele precisa recorrer a buscas manuais em sites, fóruns ou até mesmo em comunidades online. Muitas vezes, esse processo exige várias tentativas, não traz resultados confiáveis e pode gerar frustração, pois depende de informações incompletas ou incorretas.  
 
-_Apresente uma descrição textual de como os sistemas atuais resolvem o problema que se propõe a resolver.  Caso sua proposta seja inovadora e não existam processos claramente definidos, **apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente**, mesmo que não se utilize tecnologia computacional._
+Administradores ou pessoas que disponibilizam letras de músicas em sites também enfrentam dificuldades, já que precisam inserir dados manualmente, sem padronização, o que compromete a qualidade da informação. Além disso, os usuários não dispõem de um sistema estruturado de feedback ou de relatórios para melhorar a experiência.  
 
-Com o tema do projeto definido, escolham alguns processos neste contexto de negócios. Para ilustrar potenciais ganhos com a automatização, imaginem processos manuais, ineficientes e/ou com muitas idas e vindas, gerando, assim, retrabalho.
-Colem aqui os modelos dos processos atuais (modelo AS-IS), elaborados com o apoio da ferramenta baseada em BPMN utilizada na disciplina.
+Portanto, o processo atual é manual, descentralizado e ineficiente, gerando retrabalho e baixa confiabilidade.  
 
-### 3.2. Descrição geral da proposta (Modelagem TO BE)
+---
 
-Tendo identificado os gargalos dos modelos AS IS, apresentem uma descrição da proposta de solução, buscando maior eficiência com a introdução da tecnologia. Abordem também os limites dessa solução e o seu alinhamento com as estratégias e objetivos do contexto de negócio escolhido. 
-Colem aqui os modelos da solução proposta (modelo TO BE) elaborados com o apoio da ferramenta baseada em BPMN utilizada na disciplina.
-Cada processo identificado deve ter seu modelo TO-BE específico. Descrevam as oportunidades de melhoria de cada processo da solução proposta.
+## 3.2. Descrição Geral da Proposta (TO-BE)  
+A proposta é desenvolver um sistema automatizado de busca de músicas por trechos de letras. Com isso, o usuário poderá digitar apenas uma palavra ou frase lembrada, e o sistema retornará os resultados correspondentes, com título, artista e link direto para plataformas credenciadas de streaming.  
 
-_Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias._
+Essa solução trará ganhos de eficiência e praticidade, eliminando a necessidade de buscas manuais extensas. Além disso, os administradores poderão atualizar informações de forma centralizada, haverá um processo estruturado de feedback, geração de relatórios para análise de uso e autenticação para personalização da experiência.  
+
+**Limites da solução:** o sistema não fará download ou armazenamento ilegal de músicas, apenas direcionará para plataformas oficiais, respeitando os direitos autorais.  
+
+**Alinhamento com os objetivos do negócio:** melhora a experiência do usuário, apoia o aprendizado de idiomas, auxilia músicos em pesquisas e fortalece a indústria de streaming.  
+
+---
+
+
 
 ### 3.3. Modelagem dos processos
 
