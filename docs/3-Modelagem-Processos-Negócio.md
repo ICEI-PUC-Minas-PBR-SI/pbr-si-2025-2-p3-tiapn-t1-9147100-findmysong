@@ -31,6 +31,8 @@ Essa solução trará ganhos de eficiência e praticidade, eliminando a necessid
 
 [PROCESSO 2 - Cadastro e Atualização](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-findmysong/blob/961e3376dc16d2666a7571548774bfd4154d1129/docs/processos/PROCESSO%202%20-%20Cadastro%20e%20Atualiza%C3%A7%C3%A3o).
 
+[PROCESSO 3 – Feedback dos Usuários](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-findmysong/blob/4abdeddcb34c46ce016a947a7ccb8f814a228c84/docs/processos/PROCESSO%203%20-%20Feedback)
+
 [PROCESSO 1 - Nome do Processo](./processos/processo-1-nome-do-processo.md "Detalhamento do Processo 1.")
 
 [PROCESSO 2 - Nome do Processo](./processos/processo-2-nome-do-processo.md "Detalhamento do Processo 2.")
