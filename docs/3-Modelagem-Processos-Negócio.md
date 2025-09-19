@@ -24,7 +24,12 @@ Essa solução trará ganhos de eficiência e praticidade, eliminando a necessid
 
 ### 3.3. Modelagem dos processos
 
-[docs/processos/Processo 1 - Busca e Exibição](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-findmysong/blob/cc72eb7ccc568513bd783637d9f61b781c0e67c0/docs/processos/PROCESSO%201%20-%20Busca%20e%20Exibi%C3%A7%C3%A3o)
+
+
+
+[PROCESSO 1 - Busca e Exibição](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-findmysong/blob/cc72eb7ccc568513bd783637d9f61b781c0e67c0/docs/processos/PROCESSO%201%20-%20Busca%20e%20Exibi%C3%A7%C3%A3o)
+
+[PROCESSO 2 - Cadastro e Atualização](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-findmysong/blob/961e3376dc16d2666a7571548774bfd4154d1129/docs/processos/PROCESSO%202%20-%20Cadastro%20e%20Atualiza%C3%A7%C3%A3o).
 
 [PROCESSO 1 - Nome do Processo](./processos/processo-1-nome-do-processo.md "Detalhamento do Processo 1.")
 
