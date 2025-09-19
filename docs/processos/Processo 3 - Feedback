@@ -1,0 +1,22 @@
+### 3.3.3 Processo 3 – Feedback dos Usuários  
+
+**Oportunidades de melhoria:** Estruturar um processo de coleta de opinião para refinar a busca.  
+
+**Fluxo BPMN (descrição):**  
+1. Usuário recebe resultados.  
+2. Sistema exibe opção de avaliar precisão.  
+3. Usuário envia feedback (positivo/negativo + comentário opcional).  
+4. Sistema armazena feedback para análise posterior.  
+
+**Detalhamento das atividades:**  
+
+| **Campo**    | **Tipo**        | **Restrições**  | **Valor default** |
+|--------------|-----------------|-----------------|-------------------|
+| avaliacao    | Seleção única   | obrigatório     | vazio             |
+| comentario   | Área de Texto   | opcional        | vazio             |
+
+| **Comando** | **Destino**      | **Tipo**   |
+|-------------|------------------|------------|
+| enviar      | Banco feedback   | default    |
+
+---
