@@ -33,6 +33,10 @@ Essa solução trará ganhos de eficiência e praticidade, eliminando a necessid
 
 [PROCESSO 3 – Feedback dos Usuários](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-findmysong/blob/4abdeddcb34c46ce016a947a7ccb8f814a228c84/docs/processos/PROCESSO%203%20-%20Feedback)
 
+[PROCESSO 4 – Relatórios de Uso e Desempenho](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-findmysong/blob/b41c9cdac2d1bf14e2f6cd59f6b294f147982c35/docs/processos/PROCESSO%204%20-%20Relat%C3%B3rios%20de%20Uso%20e%20Desempenho)
+
+[PROCESSO 5 – Autenticação e Gerenciamento de Usuários](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-findmysong/blob/b41c9cdac2d1bf14e2f6cd59f6b294f147982c35/docs/processos/PROCESSO%205%20-%20Autentica%C3%A7%C3%A3o%20e%20Gerenciamento%20de%20Usu%C3%A1rios)
+
 [PROCESSO 1 - Nome do Processo](./processos/processo-1-nome-do-processo.md "Detalhamento do Processo 1.")
 
 [PROCESSO 2 - Nome do Processo](./processos/processo-2-nome-do-processo.md "Detalhamento do Processo 2.")
