@@ -1,0 +1,25 @@
+### 3.3.4 Processo 4 – Relatórios de Uso e Desempenho  
+
+**Oportunidades de melhoria:** Fornecer métricas para análise de comportamento e melhoria contínua.  
+
+-![GRÁFICO BPMN do PROCESSO 3](../images/BIZAGI34.png "GRÁFICO BPMN do Processo 4.")
+
+**Fluxo BPMN (descrição):**  
+1. Administrador acessa painel.  
+2. Seleciona tipo de relatório (mais pesquisadas, por semana, por artista etc.).  
+3. Sistema gera relatório automaticamente.  
+4. Administrador exporta relatório.  
+
+**Detalhamento das atividades:**  
+
+| **Campo**       | **Tipo**       | **Restrições**  | **Valor default** |
+|-----------------|----------------|-----------------|-------------------|
+| periodo         | Data           | obrigatório     | data atual        |
+| tipo_relatorio  | Seleção única  | obrigatório     | vazio             |
+
+| **Comando** | **Destino**      | **Tipo**   |
+|-------------|------------------|------------|
+| gerar       | Exibir tabela    | default    |
+| exportar    | Arquivo          | default    |
+
+---
