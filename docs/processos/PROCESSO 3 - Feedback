@@ -2,7 +2,8 @@
 
 **Oportunidades de melhoria:** Estruturar um processo de coleta de opinião para refinar a busca.  
 
-![Diagrama BPMN](./docs/images/BIZAGI33.png)
+<img src="https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-findmysong/blob/c8c7067a9f5f7e4a16ea8b7ad39e9acc29e9494f/docs/images/BIZAGI33.png" alt="BPMN">
+
 
 **Fluxo BPMN (descrição):**  
 1. Usuário recebe resultados.  
