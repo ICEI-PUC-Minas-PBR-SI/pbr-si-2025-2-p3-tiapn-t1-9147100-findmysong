@@ -1,0 +1,26 @@
+### 3.3.5 Processo 5 – Autenticação e Gerenciamento de Usuários  
+
+**Oportunidades de melhoria:** Garantir segurança, personalização e níveis de acesso diferentes.  
+
+-![GRÁFICO BPMN DO PROCESSO 5](../images/BIZAGI35.png "GRÁFICO BPMN do Processo 5.")
+
+**Fluxo BPMN (descrição):**  
+1. Usuário acessa tela de login/cadastro.  
+2. Insere dados (nome, e-mail, senha).  
+3. Sistema valida informações.  
+4. Usuário é autenticado com seu perfil (comum, estudante, músico, administrador).  
+
+**Detalhamento das atividades:**  
+
+| **Campo**  | **Tipo**        | **Restrições**              | **Valor default** |
+|------------|-----------------|-----------------------------|-------------------|
+| email      | Caixa de Texto  | formato e-mail obrigatório  | vazio             |
+| senha      | Caixa de Texto  | mínimo 8 caracteres         | vazio             |
+| perfil     | Seleção única   | obrigatório                 | usuário comum     |
+
+| **Comando** | **Destino**          | **Tipo**   |
+|-------------|----------------------|------------|
+| entrar      | Página inicial       | default    |
+| cadastrar   | Formulário cadastro  | default    |
+
+---
