@@ -2,7 +2,10 @@
 
 **Oportunidades de melhoria:** Estruturar um processo de coleta de opinião para refinar a busca.  
 
--![GRÁFICO BPMN do PROCESSO 3](../images/BIZAGI33.png "GRÁFICO BPMN do Processo 3.")
+# **Descrição das atividades do processo**
+Este processo permite que o usuário forneça feedback sobre os resultados de uma pesquisa. Após receber os resultados, o sistema oferece a opção de avaliação. Se o usuário aceitar, ele envia uma nota e um comentário, que são armazenados. Caso contrário, o processo encerra.
+
+-![GRÁFICO BPMN do PROCESSO 3](../images/BIZAGI33NEW.png "GRÁFICO BPMN do Processo 3.")
 
 **Fluxo BPMN (descrição):**  
 1. Usuário recebe resultados.  
@@ -12,13 +15,14 @@
 
 **Detalhamento das atividades:**  
 
-| **Campo**    | **Tipo**        | **Restrições**  | **Valor default** |
-|--------------|-----------------|-----------------|-------------------|
-| avaliacao    | Seleção única   | obrigatório     | vazio             |
-| comentario   | Área de Texto   | opcional        | vazio             |
+| **Campo**    | **Tipo**        | **Restrições**                                     | **Valor default** |
+|--------------|-----------------|----------------------------------------------------|------------------ |
+| Avaliação    | Seleção (1-5)   | Somente será permitida a escolha de uma opção      | vazio             |
+| Comentário   | Caixa de Texto  | Máximo de 500 caracteres                           | vazio             |
 
-| **Comando** | **Destino**      | **Tipo**   |
-|-------------|------------------|------------|
-| enviar      | Banco feedback   | default    |
+| **Comando** | **Destino**                                              | **Tipo**   |
+|-------------|--------------------------------------------------------- |------------|
+| Enviar      | Envia os dados para a atividade "Armazenar feedback"     | default    |
+| Cancelar    | Encerra o processo                                       | cancel     |
 
 ---
