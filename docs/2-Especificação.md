@@ -1,4 +1,4 @@
-# Especificações do Projeto  
+# 2. Especificações do Projeto  
 
 Esta seção apresenta as especificações do sistema de busca de músicas por trechos de letras, partindo da perspectiva do usuário. Para isso, utilizamos:  
 
@@ -9,7 +9,7 @@ Esta seção apresenta as especificações do sistema de busca de músicas por t
 
 ---
 
-## Personas  
+## 2.1. Personas  
 
 **Persona 1 – Maria (usuária comum)**  
 - Idade: 22 anos  
@@ -37,7 +37,7 @@ Esta seção apresenta as especificações do sistema de busca de músicas por t
 
 ---
 
-## Histórias de Usuários  
+## 2.2. Histórias de Usuários  
 
 | EU COMO... (Persona)      | QUERO/PRECISO ... (Funcionalidade)   | PARA ... (Motivo/Valor)                        |  
 |----------------------------|--------------------------------------|------------------------------------------------|  
@@ -52,7 +52,7 @@ Esta seção apresenta as especificações do sistema de busca de músicas por t
 
 
 
-## Requisitos
+## 2.3. Requisitos
   
 ### Requisitos Funcionais (RF)  
 
@@ -77,7 +77,7 @@ Esta seção apresenta as especificações do sistema de busca de músicas por t
 
 ---
 
-## Restrições  
+## 2.4. Restrições  
 
 | ID   | Restrição                                                                 |  
 |------|----------------------------------------------------------------------------|  
