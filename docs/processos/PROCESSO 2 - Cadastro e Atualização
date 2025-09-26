@@ -1,10 +1,11 @@
 ### 3.3.2 Processo 2 – Cadastro e Atualização de Informações 
 
-**Oportunidades de melhoria:**  
-Permitir que administradores atualizem parâmetros do sistema de forma centralizada, sem necessidade de alterações manuais em código. Isso inclui ajustes na interface, registro de eventos e feriados, além de configurações de backend e frontend.  
+**Oportunidades de melhoria:** Permitir que administradores atualizem parâmetros do sistema de forma centralizada, sem necessidade de alterações manuais em código. Isso inclui ajustes na interface, registro de eventos e feriados, além de configurações de backend e frontend.  
+
+# **Descrição das atividades do processo**
+Este processo descreve a rotina de um administrador para configurar o sistema. O fluxo começa com o acesso ao painel administrativo. O administrador então cadastra ou edita os parâmetros desejados. O sistema valida os dados: se forem válidos, são salvos; se inválidos, o sistema retorna um erro para correção.
 
 <img width="958" height="594" alt="image" src="https://github.com/user-attachments/assets/2914d3ef-41a5-42ac-a913-865bd19310f7" />
-
 
 **Fluxo BPMN (descrição):**  
 1. Administrador acessa o painel administrativo.  
@@ -14,6 +15,10 @@ Permitir que administradores atualizem parâmetros do sistema de forma centraliz
 5. Atualizações ficam disponíveis imediatamente para os usuários do sistema.  
 
 **Detalhamento das atividades:**  
+
+# **Atividade 3: Cadastrar ou editar parâmetros**
+* **Participante:** Administrador
+* **Descrição:** O administrador preenche os campos de configuração da funcionalidade selecionada.
 
 | **Campo**          | **Tipo**       | **Restrições**             | **Valor default** |
 |--------------------|----------------|----------------------------|-------------------|
@@ -25,10 +30,11 @@ Permitir que administradores atualizem parâmetros do sistema de forma centraliz
 
 **Comandos principais:**  
 
-| **Comando** | **Destino**       | **Tipo**   |
-|-------------|-------------------|------------|
-| salvar      | Base/configuração | default    |
-| editar      | Base/configuração | default    |
-| publicar    | Sistema           | aplica em tempo real |
+| **Comando** | **Destino**                                        | **Tipo**             |
+|-------------|----------------------------------------------------|----------------------|
+| Salvar      | Base/configuração                                  | default              |
+| Editar      | Base/configuração                                  | default              |
+| Publicar    | Sistema                                            | aplica em tempo real |
+| Cancelar    | Retorna para a tela de "Selecionar funcionalidade" | cancel               |
 
 ---
