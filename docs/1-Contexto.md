@@ -2,12 +2,12 @@
 
 Este projeto tem como objetivo o desenvolvimento de uma aplicação capaz de **buscar músicas a partir de trechos de suas letras**, oferecendo uma solução prática para um problema recorrente: a dificuldade de identificar uma canção quando o usuário não se lembra do título ou do artista.  
 
-## 1.1 Contexto  
+## 1.1. Contexto  
 
 Com a popularização dos serviços de streaming, ouvir música tornou-se parte do cotidiano. No entanto, os aplicativos tradicionais nem sempre oferecem recursos eficientes de pesquisa por letras. O mercado musical digital, em constante crescimento, abre espaço para soluções inovadoras que melhorem a experiência do usuário.  
 
 
-## 1.2 Problema
+## 1.2. Problema
 Apesar da ampla difusão dos serviços de streaming e aplicativos de música, muitos usuários enfrentam dificuldades quando não lembram do título exato de uma canção ou do nome do artista. Na maioria das vezes, o que permanece na memória é apenas um pequeno trecho da letra, o que torna a busca frustrante, já que as ferramentas tradicionais geralmente não oferecem suporte eficiente para esse tipo de pesquisa.
 
 Essa limitação prejudica a experiência do usuário, que acaba gastando tempo excessivo tentando localizar a música desejada ou até mesmo desistindo da procura. Além disso, estudantes que utilizam músicas como recurso pedagógico — por exemplo, no aprendizado de idiomas como o inglês — também encontram barreiras na hora de identificar canções a partir de versos específicos.
@@ -16,7 +16,7 @@ Diante desse cenário, existe a necessidade de um sistema capaz de realizar busc
 proposta.
 
 
-## 1.3 Objetivos
+## 1.3. Objetivos
 
 Desenvolver um sistema que possibilite a busca de músicas por trechos de suas letras, de forma automatizada e integrada a plataformas de streaming credenciadas.
 
@@ -29,7 +29,7 @@ Objetivos Específicos
  Realizar testes de usabilidade e performance, assegurando que o sistema atenda às necessidades dos diferentes perfis de usuários.
 
 
-## 1.4 Justificativa
+## 1.4. Justificativa
 
 A aplicação foi escolhida pela sua relevância em resolver um problema comum: **a dificuldade de encontrar músicas quando o usuário lembra apenas de um trecho da letra**.  
 
@@ -44,7 +44,7 @@ Os **objetivos específicos** foram definidos para garantir:
 
 ---
 
-## 1.5 Abordagem Metodológica  
+## 1.5. Abordagem Metodológica  
 
 Para esclarecer a problemática e validar a solução, o grupo pode utilizar:  
 - **Questionários online:** identificar dificuldades reais dos usuários.  
@@ -54,7 +54,7 @@ Para esclarecer a problemática e validar a solução, o grupo pode utilizar:
 Esses recursos reforçam a importância do projeto e sustentam a proposta de desenvolvimento do sistema.  
 
 
-## 1.6 Público-Alvo  
+## 1.6. Público-Alvo  
 
 A aplicação se destina a diferentes perfis de usuários, com níveis variados de conhecimento tecnológico e motivações distintas:  
 
