@@ -2,7 +2,10 @@
 
 **Oportunidades de melhoria:** Fornecer métricas para análise de comportamento e melhoria contínua.  
 
--![GRÁFICO BPMN do PROCESSO 4](../images/BIZAGI34.png "GRÁFICO BPMN do Processo 4.")
+# **Descrição das atividades do processo**
+Este processo detalha como um administrador extrai e analisa dados da plataforma. O administrador acessa seu painel, seleciona, gera e exporta um relatório. Por fim, ele analisa os dados e anota melhorias.
+
+-![GRÁFICO BPMN do PROCESSO 4](./images/BIZAGI34NEW.png "GRÁFICO BPMN do Processo 4.")
 
 **Fluxo BPMN (descrição):**  
 1. Administrador acessa painel.  
@@ -13,14 +16,27 @@
 
 **Detalhamento das atividades:**  
 
-| **Campo**       | **Tipo**       | **Restrições**  | **Valor default** |
-|-----------------|----------------|-----------------|-------------------|
-| periodo         | Data           | obrigatório     | data atual        |
-| tipo_relatorio  | Seleção única  | obrigatório     | vazio             |
+# **Atividade 2: Selecionar tipo de relatório**
+* **Participante:** Administrador
+* **Descrição:** O administrador escolhe qual relatório deseja visualizar.
 
-| **Comando** | **Destino**      | **Tipo**   |
-|-------------|------------------|------------|
-| gerar       | Exibir tabela    | default    |
-| exportar    | Arquivo          | default    |
+| Campo             | Tipo de dado    | Restrições                                     | Valor default       |
+| :---------------- | :-------------  | :--------------------------------------------- | :------------------ |
+| Tipo de Relatório | Seleção única   | Somente será permitida a escolha de uma opção  | Relatório de Buscas |
+| Período           | Seleção de Data | Início e Fim                                  | Últimos 30 dias     |
+
+| Comandos        | Destino                                                 | Tipo    |
+| :-------------- | :------------------------------------------------------ | :------ |
+| Gerar Relatório | Envia a solicitação para a atividade "Gerar relatório"  | default |
+
+# **Atividade 4: Exportar relatório**
+* **Participante:** Administrador
+* **Descrição:** O administrador realiza o download do relatório gerado pelo sistema.
+
+| Comandos           | Destino                                       | Tipo    |
+| :----------------- | :------------------------------------------   | :------ |
+| Exportar para PDF  | Realiza o download do arquivo em formato PDF  | default |
+| Exportar para CSV  | Realiza o download do arquivo em formato CSV  | default |
 
 ---
+
