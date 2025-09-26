@@ -2,6 +2,10 @@
 
 **Oportunidades de melhoria:** Automatizar a busca para que o usuário obtenha resultados de forma rápida, precisa e integrada a plataformas oficiais.  
 
+# **Descrição das atividades do processo**
+O processo de busca de música inicia quando o usuário acessa a aplicação e insere um trecho da letra ou uma palavra-chave. O sistema, então, realiza uma busca em sua base de dados. Se músicas forem encontradas, elas são exibidas para o usuário, que pode selecionar a desejada, encerrando o processo com sucesso. Caso a busca não retorne resultados, o usuário pode realizar uma nova pesquisa ou encerrar o processo.
+
+
 <img width="954" height="590" alt="image" src="https://github.com/user-attachments/assets/a939cde7-1f65-447d-8a08-93a33961844d" />
 
 
@@ -14,15 +18,28 @@
 
 **Detalhamento das atividades:**  
 
-| **Campo**      | **Tipo**        | **Restrições**        | **Valor default** |
-|----------------|-----------------|-----------------------|-------------------|
-| trecho_musica  | Caixa de Texto  | mínimo 3 caracteres   | vazio             |
-| resultados     | Tabela          | gerado automaticamente| null              |
+# **Atividade 1: Acessar aplicação**
+* **Participante:** Usuário
+* **Descrição:** O usuário abre a plataforma FyndMySong.
 
-| **Comando** | **Destino**               | **Tipo**   |
-|-------------|---------------------------|------------|
-| buscar      | Exibir lista de resultados| default    |
-| selecionar  | Abrir link em streaming   | default    |
+#### **Atividade 2: Digitar trecho ou palavra da música**
+* **Participante:** Usuário
+* **Descrição:** O usuário insere o texto para a busca no campo de pesquisa.
+
+| Campo           | Tipo de dado   | Restrições             | Valor default |
+| :-------------- | :------------- | :--------------------- | :------------ |
+| Busca por letra | Caixa de Texto | Mínimo de 3 caracteres | -             |
+
+| Comandos | Destino                                                                 | Tipo    |
+| :------- | :-------------------------------------------------------------------    | :------ |
+| Buscar   | Envia o texto para a atividade "Realizar pesquisa na base de dados/API" | default |
+
+#### **Atividade 5: Selecionar música desejada**
+* **Participante:** Usuário
+* **Descrição:** O usuário clica na música que deseja visualizar na lista de resultados.
+
+| Comandos             | Destino                                                   | Tipo    |
+| :------------------- | :-------------------------------------------------------- | :------ |
+| Clicar no item da lista | Encaminha para a página da música e encerra o processo | default |
 
 ---
-
