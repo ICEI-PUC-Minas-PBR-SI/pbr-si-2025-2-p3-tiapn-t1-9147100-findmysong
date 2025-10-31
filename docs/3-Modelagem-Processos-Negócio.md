@@ -24,17 +24,15 @@ Essa solução trará ganhos de eficiência e praticidade, eliminando a necessid
 
 ### 3.3. Modelagem dos processos
 
+[PROCESSO 1 - Busca e Exibição](./processos/PROCESSO%201%20-%20Busca%20e%20Exibi%C3%A7%C3%A3o.md)
 
+[PROCESSO 2 - Cadastro e Atualização](./processos/PROCESSO%202%20-%20Cadastro%20e%20Atualiza%C3%A7%C3%A3o.md)
 
+[PROCESSO 3 – Feedback dos Usuários](./processos/PROCESSO%203%20-%20Feedback.md)
 
-[PROCESSO 1 - Busca e Exibição](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-findmysong/blob/cc72eb7ccc568513bd783637d9f61b781c0e67c0/docs/processos/PROCESSO%201%20-%20Busca%20e%20Exibi%C3%A7%C3%A3o)
+[PROCESSO 4 – Relatórios de Uso e Desempenho](./processos/PROCESSO%204%20-%20Relat%C3%B3rios%20de%20Uso%20e%20Desempenho.md)
 
-[PROCESSO 2 - Cadastro e Atualização](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-findmysong/blob/961e3376dc16d2666a7571548774bfd4154d1129/docs/processos/PROCESSO%202%20-%20Cadastro%20e%20Atualiza%C3%A7%C3%A3o).
+[PROCESSO 5 – Autenticação e Gerenciamento de Usuários](./processos/PROCESSO%205%20-%20Autentica%C3%A7%C3%A3o%20e%20Gerenciamento%20de%20Usu%C3%A1rios.md)
 
-[PROCESSO 3 – Feedback dos Usuários](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-findmysong/blob/4abdeddcb34c46ce016a947a7ccb8f814a228c84/docs/processos/PROCESSO%203%20-%20Feedback)
-
-[PROCESSO 4 – Relatórios de Uso e Desempenho](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-findmysong/blob/b41c9cdac2d1bf14e2f6cd59f6b294f147982c35/docs/processos/PROCESSO%204%20-%20Relat%C3%B3rios%20de%20Uso%20e%20Desempenho)
-
-[PROCESSO 5 – Autenticação e Gerenciamento de Usuários](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-findmysong/blob/b41c9cdac2d1bf14e2f6cd59f6b294f147982c35/docs/processos/PROCESSO%205%20-%20Autentica%C3%A7%C3%A3o%20e%20Gerenciamento%20de%20Usu%C3%A1rios)
 
 ---
