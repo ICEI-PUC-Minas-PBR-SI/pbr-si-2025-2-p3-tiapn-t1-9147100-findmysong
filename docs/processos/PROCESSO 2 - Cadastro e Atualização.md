@@ -5,7 +5,7 @@
 # **Descrição das atividades do processo**
 Este processo descreve a rotina de um administrador para configurar o sistema. O fluxo começa com o acesso ao painel administrativo. O administrador então cadastra ou edita os parâmetros desejados. O sistema valida os dados: se forem válidos, são salvos; se inválidos, o sistema retorna um erro para correção.
 
-![GRÁFICO BPMN do PROCESSO 2](../images/BIZAGINEW2.png "GRÁFICO BPMN do Processo 2.")
+![GRÁFICO BPMN do PROCESSO 2](../images/BIZAGI32NEW.png "GRÁFICO BPMN do Processo 2.")
 
 **Fluxo BPMN (descrição):**  
 1. Administrador acessa o painel administrativo.  
