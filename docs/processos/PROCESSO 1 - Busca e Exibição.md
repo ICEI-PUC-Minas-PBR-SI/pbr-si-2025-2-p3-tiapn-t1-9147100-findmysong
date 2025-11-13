@@ -6,7 +6,8 @@
 O processo de busca de música inicia quando o usuário acessa a aplicação e insere um trecho da letra ou uma palavra-chave. O sistema, então, realiza uma busca em sua base de dados. Se músicas forem encontradas, elas são exibidas para o usuário, que pode selecionar a desejada, encerrando o processo com sucesso. Caso a busca não retorne resultados, o usuário pode realizar uma nova pesquisa ou encerrar o processo.
 
 
-![GRÁFICO BPMN do PROCESSO 1](../images/BIZAGINEW1.png)
+![GRÁFICO BPMN do PROCESSO 3](../images/BIZAGI31NEW.png "GRÁFICO BPMN do Processo 1.")
+
 
 
 **Fluxo BPMN (descrição):**  
