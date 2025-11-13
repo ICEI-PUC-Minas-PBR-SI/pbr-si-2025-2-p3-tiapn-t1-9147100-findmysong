@@ -24,15 +24,15 @@ Essa solução trará ganhos de eficiência e praticidade, eliminando a necessid
 
 ### 3.3. Modelagem dos processos
 
-[PROCESSO 1 - Busca e Exibição](./processos/PROCESSO%201%20-%20Busca%20e%20Exibi%C3%A7%C3%A3o.md)
+[PROCESSO 1 - Autenticação e Gerenciamento de Usuários](./processos/PROCESSO%201%20-%20Autentica%C3%A7%C3%A3o%20e%20Gerenciamento%20de%20Usu%C3%A1rios.md)
 
-[PROCESSO 2 - Cadastro e Atualização](./processos/PROCESSO%202%20-%20Cadastro%20e%20Atualiza%C3%A7%C3%A3o.md)
+[PROCESSO 2 - Busca e Exibição](./processos/PROCESSO%202%20-%20Busca%20e%20Exibi%C3%A7%C3%A3o.md)
 
-[PROCESSO 3 – Feedback dos Usuários](./processos/PROCESSO%203%20-%20Feedback.md)
+[PROCESSO 3 - Cadastro e Atualização](./processos/PROCESSO%203%20-%20Cadastro%20e%20Atualiza%C3%A7%C3%A3o.md)
 
-[PROCESSO 4 – Relatórios de Uso e Desempenho](./processos/PROCESSO%204%20-%20Relat%C3%B3rios%20de%20Uso%20e%20Desempenho.md)
+[PROCESSO 4 - Feedback](./processos/PROCESSO%204%20-%20Feedback.md)
 
-[PROCESSO 5 – Autenticação e Gerenciamento de Usuários](./processos/PROCESSO%205%20-%20Autentica%C3%A7%C3%A3o%20e%20Gerenciamento%20de%20Usu%C3%A1rios.md)
+[PROCESSO 5 - Relatórios de Uso e Desempenho](./processos/PROCESSO%205%20-%20Relat%C3%B3rios%20de%20Uso%20e%20Desempenho.md)
 
 
 ---
