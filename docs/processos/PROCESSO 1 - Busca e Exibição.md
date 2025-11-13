@@ -1,4 +1,4 @@
-### 3.3.1 Processo 1 – Busca e Exibição de Músicas por Trecho da Letra  
+### 3.3.2 Processo 2 – Busca e Exibição de Músicas por Trecho da Letra  
 
 **Oportunidades de melhoria:** Automatizar a busca para que o usuário obtenha resultados de forma rápida, precisa e integrada a plataformas oficiais.  
 
@@ -6,7 +6,7 @@
 O processo de busca de música inicia quando o usuário acessa a aplicação e insere um trecho da letra ou uma palavra-chave. O sistema, então, realiza uma busca em sua base de dados. Se músicas forem encontradas, elas são exibidas para o usuário, que pode selecionar a desejada, encerrando o processo com sucesso. Caso a busca não retorne resultados, o usuário pode realizar uma nova pesquisa ou encerrar o processo.
 
 
-![GRÁFICO BPMN do PROCESSO 1](../images/BIZAGI31NEW2.png "GRÁFICO BPMN do Processo 1.")
+![GRÁFICO BPMN do PROCESSO 2](../images/BIZAGI31NEW2.png "GRÁFICO BPMN do Processo 2.")
 
 
 
