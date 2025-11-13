@@ -1,11 +1,11 @@
-### 3.3.3 Processo 3 – Feedback dos Usuários  
+### 3.3.3 Processo 4 – Feedback dos Usuários  
 
 **Oportunidades de melhoria:** Estruturar um processo de coleta de opinião para refinar a busca.  
 
 # **Descrição das atividades do processo**
 Este processo permite que o usuário forneça feedback sobre os resultados de uma pesquisa. Após receber os resultados, o sistema oferece a opção de avaliação. Se o usuário aceitar, ele envia uma nota e um comentário, que são armazenados. Caso contrário, o processo encerra.
 
-![GRÁFICO BPMN do PROCESSO 3](../images/BIZAGI33NEW2.png "GRÁFICO BPMN do Processo 3.")
+![GRÁFICO BPMN do PROCESSO 4](../images/BIZAGI33NEW2.png "GRÁFICO BPMN do Processo 4.")
 
 **Fluxo BPMN (descrição):**  
 1. Usuário recebe resultados.  
