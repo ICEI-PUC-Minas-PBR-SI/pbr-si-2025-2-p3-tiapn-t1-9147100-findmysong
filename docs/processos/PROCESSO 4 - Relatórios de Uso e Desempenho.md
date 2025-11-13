@@ -5,7 +5,7 @@
 # **Descrição das atividades do processo**
 Este processo detalha como um administrador extrai e analisa dados da plataforma. O administrador acessa seu painel, seleciona, gera e exporta um relatório. Por fim, ele analisa os dados e anota melhorias.
 
-![GRÁFICO BPMN do PROCESSO 4](../images/BIZAGI34NEW2.png "GRÁFICO BPMN do Processo 4.")
+![GRÁFICO BPMN do PROCESSO 4](../images/BIZAGI34NEW.png "GRÁFICO BPMN do Processo 4.")
 
 
 **Fluxo BPMN (descrição):**  
