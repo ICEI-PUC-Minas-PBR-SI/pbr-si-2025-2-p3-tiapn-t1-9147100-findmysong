@@ -1,4 +1,4 @@
-### 3.3.2 Processo 3 – Cadastro e Atualização de Informações 
+### 3.3.3 Processo 3 – Cadastro e Atualização de Informações 
 
 **Oportunidades de melhoria:** Permitir que administradores atualizem parâmetros do sistema de forma centralizada, sem necessidade de alterações manuais em código. Isso inclui ajustes na interface, registro de eventos e feriados, além de configurações de backend e frontend.  
 
