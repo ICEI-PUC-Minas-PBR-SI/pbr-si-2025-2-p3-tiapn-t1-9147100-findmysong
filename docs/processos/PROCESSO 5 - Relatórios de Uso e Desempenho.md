@@ -1,11 +1,11 @@
-### 3.3.4 Processo 4 – Relatórios de Uso e Desempenho  
+### 3.3.4 Processo 5 – Relatórios de Uso e Desempenho  
 
 **Oportunidades de melhoria:** Fornecer métricas para análise de comportamento e melhoria contínua.  
 
 # **Descrição das atividades do processo**
 Este processo detalha como um administrador extrai e analisa dados da plataforma. O administrador acessa seu painel, seleciona, gera e exporta um relatório. Por fim, ele analisa os dados e anota melhorias.
 
-![GRÁFICO BPMN do PROCESSO 4](../images/BIZAGI34NEW.png "GRÁFICO BPMN do Processo 4.")
+![GRÁFICO BPMN do PROCESSO 5](../images/BIZAGI34NEW.png "GRÁFICO BPMN do Processo 5.")
 
 
 **Fluxo BPMN (descrição):**  
