@@ -151,12 +151,81 @@ Tabela com todos os feedbacks obtidos da rota `/api/feedbacks`.
 
 ## Diagrama de Classes
 
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
+## **Frontend (React) – `frontend/src/`**
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
+### **Diretórios e Arquivos**
 
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
+frontend/
+└── src/
+├── pages/
+│ ├── AuthPage.tsx
+│ ├── Home.tsx
+│ ├── Library.tsx
+│ ├── LikedSongs.tsx
+│ ├── Top10.tsx
+│ ├── AdminPanel.tsx
+│ ├── CreatePlaylist.tsx
+│ └── Profile.tsx
+│
+├── components/
+│ ├── Sidebar.tsx
+│ ├── MusicPlayer.tsx
+│ ├── PlaylistMenu.tsx
+│ └── FeedbackForm.tsx
+│
+├── ui/
+│ └── (...componentes shadcn/ui)
+│
+└── contexts/
+└── MusicPlayerContext.tsx
+
+
+### **📌 Descrição dos Arquivos**
+
+**pages/**
+- **AuthPage.tsx** – Fluxo de login/cadastro.  
+- **Home.tsx** – Tela principal (busca + player).  
+- **Library.tsx** – Playlists do usuário.  
+- **LikedSongs.tsx** – Músicas curtidas.  
+- **Top10.tsx** – Top 10 do Spotify.  
+- **AdminPanel.tsx** – Gerencia temas e feedbacks.  
+- **CreatePlaylist.tsx** – Criar playlist.  
+- **Profile.tsx** – Informações do usuário.
+
+**components/**
+- **Sidebar.tsx** – Navegação lateral.  
+- **MusicPlayer.tsx** – Player fixo global.  
+- **PlaylistMenu.tsx** – Menu para adicionar músicas às playlists.  
+- **FeedbackForm.tsx** – Formulário de avaliação 1–5.
+
+**contexts/**
+- **MusicPlayerContext.tsx** – Estado global do player (currentTrack, play/pause).
+
+---
+
+## **Backend – `backend/`**
+
+(Baseado no print image_a6a0be.png)
+
+### **Estrutura Simplificada**
+
+backend/
+└── server.js
+
+
+### **Rotas definidas no server.js**
+
+- POST `/api/usuarios/register`
+- POST `/api/usuarios/login`
+- GET  `/api/spotify/search`
+- POST `/api/playlists`
+- POST `/api/playlists/:id/musicas`
+- POST `/api/likes`
+- POST `/api/feedbacks`
+- POST `/api/admin/config`
+- (E todas as rotas GET correspondentes)
+
+---
 
 ## Modelo ER
 
