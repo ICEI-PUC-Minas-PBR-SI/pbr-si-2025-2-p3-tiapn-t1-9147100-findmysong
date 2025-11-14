@@ -140,82 +140,124 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER�
 > - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
 
 
-### 4.3. Modelo de dados
+# 4.3. Modelo de dados
 
-O desenvolvimento da solução proposta requer a existência de bases de dados que permitam efetuar os cadastros de dados e controles associados aos processos identificados, assim como recuperações.
-Utilizando a notação do DER (Diagrama Entidade e Relacionamento), elaborem um modelo, na ferramenta visual indicada na disciplina, que contemple todas as entidades e atributos associados às atividades dos processos identificados. Deve ser gerado um único DER que suporte todos os processos escolhidos, visando, assim, uma base de dados integrada. O modelo deve contemplar, também, o controle de acesso de usuários (partes interessadas dos processos) de acordo com os papéis definidos nos modelos do processo de negócio.
-_Apresente o modelo de dados por meio de um modelo relacional que contemple todos os conceitos e atributos apresentados na modelagem dos processos._
+## 4.3.1 Modelo ER (Descrição)
 
-#### 4.3.1 Modelo ER
+Entidades:  
+- usuarios  
+- playlists  
+- playlist_musicas  
+- curtidas  
+- biblioteca  
+- feedbacks  
+- configuracoes  
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+### Relacionamentos 1:N
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
+- Um usuario pode ter muitas playlists.  
+- Um usuario pode ter muitas curtidas.  
+- Um usuario pode ter muitos registros em biblioteca.  
+- Uma playlist pode ter muitas playlist_musicas.
 
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+### Entidades Independentes
 
-#### 4.3.2 Esquema Relacional
+- feedbacks (não referencia usuarios — anônimo)  
+- configuracoes (tabela única)
 
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
-
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
-
-![Exemplo de um modelo relacional](images/modeloRelacional.png "Exemplo de Modelo Relacional.")
 ---
 
+## 4.3.2 Esquema Relacional (Conceitual)
 
-#### 4.3.3 Modelo Físico
+usuarios (id, nome, email, senha, avatar_url, data_cadastro)
+configuracoes (id, site_name, theme, items_per_page, language, updated_at)
+feedbacks (id, query, nota, comentario, data_envio)
+curtidas (id, usuario_id, spotify_id, titulo, artista, imagem, url)
+biblioteca (id, usuario_id, spotify_id, titulo, artista, imagem, url)
+playlists (id, usuario_id, nome, descricao, data_criacao)
+playlist_musicas (id, playlist_id, spotify_id, titulo, artista, imagem, url, adicionada_em)
 
-Insira aqui o script de criação das tabelas do banco de dados.
 
-Veja um exemplo:
+---
 
-<code>
+## 4.3.3 Modelo Físico (Script SQL)
 
- -- Criação da tabela Médico
-CREATE TABLE Medico (
-    MedCodigo INTEGER PRIMARY KEY,
-    MedNome VARCHAR(100)
+```sql
+-- 1. Tabela usuarios
+CREATE TABLE usuarios (
+  id SERIAL PRIMARY KEY,
+  nome VARCHAR(100) NOT NULL,
+  email VARCHAR(100) NOT NULL UNIQUE,
+  senha VARCHAR(255) NOT NULL,
+  avatar_url TEXT,
+  data_cadastro TIMESTAMP DEFAULT NOW()
 );
 
-
--- Criação da tabela Paciente
-CREATE TABLE Paciente (
-    PacCodigo INTEGER PRIMARY KEY,
-    PacNome VARCHAR(100)
+-- 2. Tabela configuracoes
+CREATE TABLE configuracoes (
+  id SERIAL PRIMARY KEY DEFAULT 1,
+  site_name VARCHAR(100),
+  theme VARCHAR(50) DEFAULT 'light',
+  items_per_page INTEGER DEFAULT 20,
+  language VARCHAR(10) DEFAULT 'pt-BR',
+  updated_at TIMESTAMP DEFAULT NOW()
 );
 
--- Criação da tabela Consulta
-CREATE TABLE Consulta (
-    ConCodigo INTEGER PRIMARY KEY,
-    MedCodigo INTEGER,
-    PacCodigo INTEGER,
-    Data DATE,
-    FOREIGN KEY (MedCodigo) REFERENCES Medico(MedCodigo),
-    FOREIGN KEY (PacCodigo) REFERENCES Paciente(PacCodigo)
+-- 3. Tabela feedbacks
+CREATE TABLE feedbacks (
+  id SERIAL PRIMARY KEY,
+  query TEXT NOT NULL,
+  nota INTEGER NOT NULL CHECK (nota BETWEEN 1 AND 5),
+  comentario TEXT,
+  data_envio TIMESTAMP DEFAULT NOW()
 );
 
--- Criação da tabela Medicamento
-CREATE TABLE Medicamento (
-    MdcCodigo INTEGER PRIMARY KEY,
-    MdcNome VARCHAR(100)
+-- 4. Tabela curtidas
+CREATE TABLE curtidas (
+  id SERIAL PRIMARY KEY,
+  usuario_id INTEGER REFERENCES usuarios(id) ON DELETE CASCADE,
+  spotify_id VARCHAR(255) NOT NULL,
+  titulo TEXT,
+  artista TEXT,
+  imagem TEXT,
+  url TEXT,
+  UNIQUE(usuario_id, spotify_id)
 );
 
--- Criação da tabela Prescricao
-CREATE TABLE Prescricao (
-    ConCodigo INTEGER,
-    MdcCodigo INTEGER,
-    Posologia VARCHAR(200),
-    PRIMARY KEY (ConCodigo, MdcCodigo),
-    FOREIGN KEY (ConCodigo) REFERENCES Consulta(ConCodigo),
-    FOREIGN KEY (MdcCodigo) REFERENCES Medicamento(MdcCodigo)
+-- 5. Tabela biblioteca
+CREATE TABLE biblioteca (
+  id SERIAL PRIMARY KEY,
+  usuario_id INTEGER REFERENCES usuarios(id) ON DELETE CASCADE,
+  spotify_id VARCHAR(255) NOT NULL,
+  titulo TEXT,
+  artista TEXT,
+  imagem TEXT,
+  url TEXT,
+  UNIQUE(usuario_id, spotify_id)
 );
 
-</code>
+-- 6. Tabela playlists
+CREATE TABLE playlists (
+  id SERIAL PRIMARY KEY,
+  usuario_id INTEGER REFERENCES usuarios(id) ON DELETE CASCADE,
+  nome VARCHAR(100) NOT NULL,
+  descricao TEXT,
+  data_criacao TIMESTAMP DEFAULT NOW()
+);
 
-Este script deverá ser incluído em um arquivo .sql na pasta src\bd.
+-- 7. Tabela playlist_musicas
+CREATE TABLE playlist_musicas (
+  id SERIAL PRIMARY KEY,
+  playlist_id INTEGER REFERENCES playlists(id) ON DELETE CASCADE,
+  spotify_id VARCHAR(255) NOT NULL,
+  titulo TEXT,
+  artista TEXT,
+  imagem TEXT,
+  url TEXT,
+  adicionada_em TIMESTAMP DEFAULT NOW(),
+  UNIQUE(playlist_id, spotify_id)
+);
+```
 
 
 
