@@ -44,7 +44,7 @@ Substitui as telas separadas de Login e Cadastro. Apresenta um card centralizado
 - Exibe mensagens (toast).  
 - Redireciona para `/home`.
 
-![TELA DE LOGIN E CADASTRO](../images/login.png "TELA DE LOGIN E CADASTRO")
+![TELA DE LOGIN E CADASTRO](./images/login.png "TELA DE LOGIN E CADASTRO")
 
 
 ---
@@ -66,7 +66,7 @@ Interface principal do app com duas colunas: Sidebar (esquerda) e conteúdo (dir
   - Menu “3 pontinhos”  
 - Sidebar retrátil salva estado no `localStorage`.
 
-![TELA HOME](../images/home.png "TELA PRINCIPAL COM BUSCA")
+![TELA HOME](./images/home.png "TELA PRINCIPAL COM BUSCA")
 
 
 ---
@@ -83,7 +83,7 @@ Página protegida para o email admin. Usa abas (Tabs).
 - Alterna entre abas.  
 - Pode trocar tema (Padrão, Halloween, Natal).  
 
-![TELA DO PAINEL DO ADMINISTRADOR](../images/paineladmin.png "TELA PAINEL ADMIN")
+![TELA DO PAINEL DO ADMINISTRADOR](./images/paineladmin.png "TELA PAINEL ADMIN")
 
 
 ---
@@ -101,7 +101,7 @@ Formulário exibido após uma busca válida.
 - Pode escrever comentário.  
 - Envia para `/api/feedbacks`.
 
-![TELA DE AVALIAÇÃO](../images/avaliacao.png "TELA DE AVALIAÇÃO")
+![TELA DE AVALIAÇÃO](./images/avaliacao.png "TELA DE AVALIAÇÃO")
 
 
 ---
@@ -117,7 +117,7 @@ Tabela com todos os feedbacks obtidos da rota `/api/feedbacks`.
 - Exibe notas, comentários e data.  
 - Botão “Exportar CSV”.
 
-![TELA DE RELATÓRIOS](../images/relatorios.png "TELA DE RESGATE DAS AVALIAÇÕES")
+![TELA DE RELATÓRIOS](./images/relatorios.png "TELA DE RESGATE DAS AVALIAÇÕES")
 
 
 ---
