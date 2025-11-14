@@ -291,15 +291,68 @@ CREATE TABLE playlist_musicas (
 
 ### 4.4. Tecnologias
 
-_Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas._
+Tecnologias Utilizadas
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+O FindMySong utiliza uma stack moderna de JavaScript/TypeScript, dividida em Frontend, Backend e Banco de Dados.
 
 
-| **Dimensão**   | **Tecnologia**  |
-| ---            | ---             |
-| SGBD           | MySQL           |
-| Front end      | HTML+CSS+JS     |
-| Back end       | Java SpringBoot |
-| Deploy         | Github Pages    |
+Frontend
+| Tecnologia           | Descrição                                          |
+| -------------------- | -------------------------------------------------- |
+| **React (Vite)**     | Biblioteca principal usada para a interface SPA.   |
+| **TypeScript**       | Adiciona tipagem estática e segurança ao código.   |
+| **Tailwind CSS**     | Framework “utility-first” para estilização rápida. |
+| **shadcn/ui**        | Biblioteca de componentes (Cards, Inputs, Tabs).   |
+| **react-router-dom** | Roteamento entre páginas.                          |
+| **axios**            | Cliente HTTP para comunicação com o backend.       |
+| **lucide-react**     | Biblioteca de ícones usada no projeto.             |
+
+
+Backend
+| Tecnologia             | Descrição                                             |
+| ---------------------- | ----------------------------------------------------- |
+| **Node.js**            | Ambiente de execução JavaScript no servidor.          |
+| **Express.js**         | Framework web para criação da API RESTful.            |
+| **pg (node-postgres)** | Cliente para executar queries no PostgreSQL.          |
+| **CORS**               | Middleware para permitir comunicação Vercel → Render. |
+| **bcrypt.js**          | Para hash das senhas.                                 |
+| **jsonwebtoken (JWT)** | Tokens de autenticação para sessões.                  |
+
+
+Banco de Dados
+| Tecnologia     | Descrição                                     |
+| -------------- | --------------------------------------------- |
+| **PostgreSQL** | Banco relacional que armazena todos os dados. |
+
+
+Ferramentas
+| Ferramenta     | Descrição                              |
+| -------------- | -------------------------------------- |
+| **Render**     | Hosting do backend + banco PostgreSQL. |
+| **Git/GitHub** | Controle de versão do código.          |
+| **pgAdmin**    | Gerenciamento visual do PostgreSQL.    |
+| **VS Code**    | Editor de código utilizado.            |
+
+
+
+Fluxo de Interação das Tecnologias
+
+
+[ Usuário Navegador ]
+        |
+        v
+[ Frontend React - Vercel ]
+        |
+   (axios /api/...)
+        v
+[ Backend Node/Express - Render ]
+        |
+   +----+-------------------+
+   |                        |
+   v                        v
+[ PostgreSQL ]        [ API Spotify ]
+        |
+        v
+[ Genius.com - Letras ]
+
 
