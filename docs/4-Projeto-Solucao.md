@@ -14,25 +14,113 @@
  
  ![Exemplo de Arquitetura](./images/arquitetura-exemplo.png)
  
+---
 
-### 4.2. Protótipos de telas
+# 4.2. Protótipos de telas
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="02-Especificação do Projeto.md"> Especificação do Projeto</a>.
-A partir das atividades de usuário identificadas na seção anterior, elabore o protótipo de tela de cada uma delas.
-![Exemplo de Wireframe](images/wireframe-example.png)
+A aplicação é composta por 5 processos principais que definem a experiência do usuário, baseados nos protótipos de tela.
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+---
 
+## 1. Processo de Cadastro/Login
+
+**Tela:** AuthPage.tsx  
+**Protótipo:** image_a6a42b.jpg  
+
+**Descrição:**  
+Substitui as telas separadas de Login e Cadastro. Apresenta um card centralizado com duas abas: "Sign In" (Entrar) e "Sign Up" (Criar Conta).
+
+**Componentes:**  
+- Card  
+- Tabs  
+- Input  
+- Button (shadcn/ui)
+
+**Fluxo:**  
+- O usuário preenche o formulário.  
+- O AuthPage usa axios para enviar os dados ao backend:  
+  - `/api/usuarios/login`  
+  - `/api/usuarios/register`  
+- Exibe mensagens (toast).  
+- Redireciona para `/home`.
+
+![TELA DE LOGIN E CADASTRO](../images/login.png "TELA DE LOGIN E CADASTRO")
+
+
+---
+
+## 2. Processo de Home e Busca
+
+**Tela:** Home.tsx  
+**Protótipo:** image_a6a17f.jpg  
+
+**Descrição:**  
+Interface principal do app com duas colunas: Sidebar (esquerda) e conteúdo (direita). Player aparece ao tocar algo.
+
+**Fluxo:**  
+- Busca com barra de pesquisa.  
+- Cards exibem:  
+  - Play  
+  - Link do Genius  
+  - Link Spotify  
+  - Menu “3 pontinhos”  
+- Sidebar retrátil salva estado no `localStorage`.
+
+![TELA HOME](../images/home.png "TELA PRINCIPAL COM BUSCA")
+
+
+---
+
+## 3. Processo do Painel de Admin
+
+**Tela:** AdminPanel.tsx  
+**Protótipo:** image_a6a87f.png  
+
+**Descrição:**  
+Página protegida para o email admin. Usa abas (Tabs).
+
+**Fluxo:**  
+- Alterna entre abas.  
+- Pode trocar tema (Padrão, Halloween, Natal).  
+
+![TELA DO PAINEL DO ADMINISTRADOR](../images/paineladmin.png "TELA PAINEL ADMIN")
+
+
+---
+
+## 4. Processo de Opinar sobre a Busca
+
+**Tela:** FeedbackForm.tsx  
+**Protótipo:** image_a6a7e8.png  
+
+**Descrição:**  
+Formulário exibido após uma busca válida.
+
+**Fluxo:**  
+- Usuário seleciona 1–5 estrelas.  
+- Pode escrever comentário.  
+- Envia para `/api/feedbacks`.
+
+![TELA DE AVALIAÇÃO](../images/avaliacao.png "TELA DE AVALIAÇÃO")
+
+
+---
+
+## 5. Processo de Gerar Relatório de Opiniões
+
+**Tela:** AdminPanel.tsx – Aba "Feedback"  
+
+**Descrição:**  
+Tabela com todos os feedbacks obtidos da rota `/api/feedbacks`.
+
+**Fluxo:**  
+- Exibe notas, comentários e data.  
+- Botão “Exportar CSV”.
+
+![TELA DE RELATÓRIOS](../images/relatorios.png "TELA DE RESGATE DAS AVALIAÇÕES")
+
+
+---
 
 ## Diagrama de Classes
 
