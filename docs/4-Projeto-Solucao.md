@@ -1,19 +1,46 @@
-## 4. Projeto da Solução
+# 4. Projeto da Solução
 
-<span style="color:red">Pré-requisitos: <a href="03-Modelagem do Processo de Negocio.md"> Modelagem do Processo de Negocio</a></span>
+Este documento detalha a arquitetura, design de telas, modelo de dados e tecnologias empregadas no desenvolvimento do FindMySong, com base na implementação real do projeto.
 
-## 4.1. Arquitetura da solução
+---
+
+# 4.1. Arquitetura da solução
+
+A arquitetura do FindMySong é baseada em um modelo de três camadas desacopladas (Frontend, Backend, Banco de Dados), hospedadas em serviços de nuvem modernos.
+
+**Camada de Apresentação (Frontend):**  
+Uma SPA (Single Page Application) construída em React + TypeScript (com Vite). É responsável por toda a interface do usuário e gerenciamento de estado (como o player de música e a sidebar). É hospedada na Vercel.
+
+**Camada de Aplicação (Backend):**  
+Uma API RESTful construída em Node.js + Express.js. Ela serve como um gateway seguro que lida com a lógica de negócios, autenticação (JWT) e se comunica com o banco de dados e APIs externas. É hospedada no Render.
+
+**Camada de Persistência (Banco de Dados):**  
+Um banco de dados PostgreSQL que armazena todos os dados gerados pelo usuário (perfis, playlists, curtidas, feedbacks). É hospedado no Render Postgres.
+
+**Integrações Externas:**  
+O backend consome a API do Spotify (para busca de músicas e previews) e o frontend redireciona para o Genius (para letras).
+
+---
+
+## Diagrama de Fluxo (Simplificado)
+
+[ Usuário no Navegador ]
+            |
+            v
+[ Frontend React (Vercel) ]
+            |
+     (axios /api/... )
+            v
+[ Backend Node/Express (Render) ]
+     |                     |
+     v                     v
+[ PostgreSQL ]      [ API Spotify ]
+            |
+            v
+[ Redirecionamento para Genius.com ]
 
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
 
- Inclua um diagrama da solução e descreva os módulos e as tecnologias
- que fazem parte da solução. Discorra sobre o diagrama.
- 
- **Exemplo do diagrama de Arquitetura**:
- 
- ![Exemplo de Arquitetura](./images/arquitetura-exemplo.png)
- 
 ---
 
 # 4.2. Protótipos de telas
