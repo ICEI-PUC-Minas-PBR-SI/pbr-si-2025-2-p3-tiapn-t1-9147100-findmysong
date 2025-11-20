@@ -1,8 +1,8 @@
-### 3.3.2 Processo 2 – Busca e Exibição de Músicas por Trecho da Letra  
+# 3.3.2 Processo 2 – Busca e Exibição de Músicas por Trecho da Letra  
 
 **Oportunidades de melhoria:** Automatizar a busca para que o usuário obtenha resultados de forma rápida, precisa e integrada a plataformas oficiais.  
 
-# **Descrição das atividades do processo**
+### **Descrição das atividades do processo**
 O processo de busca de música inicia quando o usuário acessa a aplicação e insere um trecho da letra ou uma palavra-chave. O sistema, então, realiza uma busca em sua base de dados. Se músicas forem encontradas, elas são exibidas para o usuário, que pode selecionar a desejada, encerrando o processo com sucesso. Caso a busca não retorne resultados, o usuário pode realizar uma nova pesquisa ou encerrar o processo.
 
 
@@ -19,11 +19,11 @@ O processo de busca de música inicia quando o usuário acessa a aplicação e i
 
 **Detalhamento das atividades:**  
 
-# **Atividade 1: Acessar aplicação**
+## **Atividade 1: Acessar aplicação**
 * **Participante:** Usuário
 * **Descrição:** O usuário abre a plataforma FyndMySong.
 
-#### **Atividade 2: Digitar trecho ou palavra da música**
+## **Atividade 2: Digitar trecho ou palavra da música**
 * **Participante:** Usuário
 * **Descrição:** O usuário insere o texto para a busca no campo de pesquisa.
 
@@ -35,7 +35,7 @@ O processo de busca de música inicia quando o usuário acessa a aplicação e i
 | :------- | :-------------------------------------------------------------------    | :------ |
 | Buscar   | Envia o texto para a atividade "Realizar pesquisa na base de dados/API" | default |
 
-#### **Atividade 5: Selecionar música desejada**
+## **Atividade 5: Selecionar música desejada**
 * **Participante:** Usuário
 * **Descrição:** O usuário clica na música que deseja visualizar na lista de resultados.
 
