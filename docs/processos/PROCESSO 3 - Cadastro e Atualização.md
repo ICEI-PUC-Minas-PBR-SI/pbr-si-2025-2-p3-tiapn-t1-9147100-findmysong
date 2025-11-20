@@ -1,8 +1,8 @@
-### 3.3.3 Processo 3 – Cadastro e Atualização de Informações 
+# 3.3.3 Processo 3 – Cadastro e Atualização de Informações 
 
 **Oportunidades de melhoria:** Permitir que administradores atualizem parâmetros do sistema de forma centralizada, sem necessidade de alterações manuais em código. Isso inclui ajustes na interface, registro de eventos e feriados, além de configurações de backend e frontend.  
 
-# **Descrição das atividades do processo**
+### **Descrição das atividades do processo**
 Este processo descreve a rotina de um administrador para configurar o sistema. O fluxo começa com o acesso ao painel administrativo. O administrador então cadastra ou edita os parâmetros desejados. O sistema valida os dados: se forem válidos, são salvos; se inválidos, o sistema retorna um erro para correção.
 
 ![GRÁFICO BPMN do PROCESSO 3](../images/BIZAGI32NEW.png "GRÁFICO BPMN do Processo 3.")
@@ -16,7 +16,7 @@ Este processo descreve a rotina de um administrador para configurar o sistema. O
 
 **Detalhamento das atividades:**  
 
-# **Atividade 3: Cadastrar ou editar parâmetros**
+## **Atividade 3: Cadastrar ou editar parâmetros**
 * **Participante:** Administrador
 * **Descrição:** O administrador preenche os campos de configuração da funcionalidade selecionada.
 
