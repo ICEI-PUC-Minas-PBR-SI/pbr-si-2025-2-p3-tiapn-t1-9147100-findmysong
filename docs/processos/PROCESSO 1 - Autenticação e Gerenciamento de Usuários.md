@@ -1,4 +1,4 @@
-### 3.3.1 Processo 1 – Autenticação e Gerenciamento de Usuários  
+# 3.3.1 Processo 1 – Autenticação e Gerenciamento de Usuários  
 
 **Oportunidades de melhoria:** Garantir segurança, personalização e níveis de acesso diferentes.  
 
@@ -16,7 +16,7 @@ Este processo gerencia o acesso do usuário, cobrindo o cadastro de novas contas
 
 **Detalhamento das atividades:**  
 
-# **Atividade 3: Inserir dados (Cadastro)**
+## **Atividade 3: Inserir dados (Cadastro)**
 * **Participante:** Usuário
 * **Descrição:** O usuário preenche o formulário para criar uma nova conta.
 
@@ -32,7 +32,7 @@ Este processo gerencia o acesso do usuário, cobrindo o cadastro de novas contas
 | Cadastrar           | Envia os dados para a atividade "Validar informações"  | default |
 | Já tenho uma conta  | Redireciona para a atividade "Inserir credenciais"     | cancel  |
 
-#### **Atividade 4: Inserir credenciais (Login)**
+## **Atividade 4: Inserir credenciais (Login)**
 * **Participante:** Usuário
 * **Descrição:** O usuário informa seu e-mail e senha para acessar a plataforma.
 
