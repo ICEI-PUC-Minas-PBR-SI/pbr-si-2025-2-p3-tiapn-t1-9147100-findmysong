@@ -2,7 +2,7 @@
 
 **Oportunidades de melhoria:** Garantir segurança, personalização e níveis de acesso diferentes.  
 
-# **Descrição das atividades do processo**
+### **Descrição das atividades do processo**
 Este processo gerencia o acesso do usuário, cobrindo o cadastro de novas contas e o login. O usuário escolhe entre se cadastrar ou acessar. No cadastro, ele insere e valida seus dados. No acesso, ele insere suas credenciais. Ambos os caminhos levam ao acesso concluído.
 
 ![GRÁFICO BPMN do PROCESSO 1](../images/BIZAGI35NEW.png "GRÁFICO BPMN do Processo 1.")
