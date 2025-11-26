@@ -80,3 +80,5 @@ Este processo permite que o usuário forneça feedback sobre os resultados de um
 |-------------|--------------------------------|------------|
 | Enviar      | Armazena na base (/api/feedback) | default    |
 | Cancelar    | Limpa o formulário              | cancel     |
+
+---
