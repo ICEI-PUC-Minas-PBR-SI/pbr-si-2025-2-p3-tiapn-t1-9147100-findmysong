@@ -1,32 +1,34 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
 title: FindMySong
-authors: 
+authors:
   - family-names: Fialho de Paula Villela
-    given-names: Abraao Lucas 
-- family-names: Gonçalves
-    given-names: Eduardo Porto
+    given-names: Abraao Lucas
+  - family-names: Porto Gonçalves
+    given-names: Eduardo
   - family-names: Chagas Ramos
     given-names: Gustavo Henrique
   - family-names: Rezende Junior
     given-names: Heitor Carlos
-  - family-names: Faleiro
-    given-names: Samuel Ribeiro
+  - family-names: Ribeiro Faleiro
+    given-names: Samuel
 
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: Gomes Amaral
     given-names: Cleia Marcia
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
-    keywords:
-    - 
-repository-code: 
+keywords:
+  - musica
+  - busca-por-letra
+  - spotify-api
+  - genius-api
+  - react
+  - nodejs
+  - postgresql
+
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe1-t2-findmysong
 Frontend: https://github.com/Duardo-Dudds/FindMySong-frontend.git
 Backend: https://github.com/Duardo-Dudds/FindMySong-backend.git
 license: CC-BY-4.0
-site: https://find-my-song-frontend.vercel.app/login
 version: 1.0.0
-date-released: 28/11/2025
+date-released: 2025-11-28
