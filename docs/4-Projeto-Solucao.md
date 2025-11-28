@@ -151,6 +151,8 @@ Tabela com todos os feedbacks obtidos da rota `/api/feedbacks`.
 
 ## Diagrama de Classes
 
+![DIAGRAMA DE CLASSES](images/DiagramaClasses.jpg "Diagrama de classes.")
+
 ## **Frontend (React) – `frontend/src/`**
 
 ### **Diretórios e Arquivos**
