@@ -8,29 +8,29 @@
 
 ### Sprint 1
 - _Scrum master_: Eduardo Porto
-- Idealização: Samuel Faleiro
+- Idealização: Eduardo Porto e Samuel Faleiro
 - Verificações externas: Gustavo Henrique
 - Documentação: Todos os membros
 
-### Sprint 2
+### Sprint 2 - 4
+- _Scrum master_: Eduardo Porto  
+- Modelagem BPMN: Eduardo Porto e Heitor
+- Desenvolvimento dos processos: AlunoK
+- Organização GITHUB: AlunaZ
+
+### Sprint 4 - 6
 - _Scrum master_: Eduardo Porto  
 - Modelagem BPMN: AlunoX
 - Desenvolvimento dos processos: AlunoK
 - Organização GITHUB: AlunaZ
 
-### Sprint 3
-- _Scrum master_: Eduardo Porto  
-- Modelagem BPMN: AlunoX
-- Desenvolvimento dos processos: AlunoK
-- Organização GITHUB: AlunaZ
-
-### Sprint 4
+### Sprint 7
 - _Scrum master_: Eduardo Porto  
 - Desenvolvedor _front-end_: AlunoX
 - Desenvolvedor _back-end_: AlunoK
 - Testes: AlunaZ
 
-### Sprint 5
+### Sprint 3 - 7
 - _Scrum master_: Eduardo Porto  
 - Desenvolvedor _front-end_: AlunoX
 - Desenvolvedor _back-end_: AlunoK
@@ -60,7 +60,7 @@ Atualizado em: 28/09/2025
 | Samuel        | Requisitos            | 11/09/2025     | 12/09/2025 | ✔️    | 12/09/2025      |
 | Samuel        | Restrições            | 11/09/2025     | 12/09/2025 | ✔️    | 12/09/2025      |
 
-## Sprint 2
+## Sprint 2 - 4
 
 Atualizado em: 26/09/2025
 
@@ -73,9 +73,33 @@ Atualizado em: 26/09/2025
 | Eduardo       | Processo 3            | 26/09/2025     | 10/10/2025 | ✔️    | 19/09/2025      |
 | Eduardo       | Processo 4            | 26/09/2025     | 10/10/2025 | ✔️    | 19/09/2025      |
 
+## Sprint 4 - 6
+
+Atualizado em: 14/11/2025
+
+| Responsável   | Tarefa/Requisito       | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----               |      :----:    | :----:     | :----: | :----:          |
+| Gustavo       | Arquitetura da solução | 17/10/2025     | 14/11/2025 | ✔️    | 14/11/2025      |
+| Eduardo       | Protótipos de telas    | 17/10/2025     | 14/11/2025 | ✔️    | 14/11/2025      |
+| Abraão        | Diagrama de classes    | 17/10/2025     | 14/11/2025 | ✔️    | 14/11/2025      |
+| Samuel        | Modelo de dados        | 17/10/2025     | 14/11/2025 | ✔️    | 14/11/2025      |
+| Heitor        | Tecnologias            | 17/10/2025     | 14/11/2025 | ✔️    | 14/11/2025      |
+| Eduardo       | Processo 4             | 17/10/2025     | 14/11/2025 | ✔️    | 14/11/2025      |
+
+## Sprint 7
+
+Atualizado em: 28/11/2025
+
+| Responsável   | Tarefa/Requisito       | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----               |      :----:    | :----:     | :----: | :----:          |
+| Eduardo       | Interface Sistema      | 21/11/2025     | 05/12/2025 | ✔️    | 28/11/2025      |
+| Eduardo       | Planejamento projeto   | 21/11/2025     | 05/12/2025 | ✔️    | 28/11/2025      |
+| Eduardo       | Referências            | 21/11/2025     | 05/12/2025 | ✔️    | 28/11/2025      |
+| Eduardo       | Documentação final     | 21/11/2025     | 05/12/2025 | ✔️    | 28/11/2025      |
 
 ## Sprint 3 - 7
 
+Atualizado em: 28/11/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
