@@ -14,34 +14,31 @@
 
 ### Sprint 2 - 4
 - _Scrum master_: Eduardo Porto  
-- Modelagem BPMN: Eduardo Porto e Heitor
-- Desenvolvimento dos processos: AlunoK
-- Organização GITHUB: AlunaZ
+- Modelagem BPMN: Eduardo Porto e Heitor Carlos
+- Desenvolvimento dos processos: Gustavo Henrique e Samuel Faleiro 
+- Organização GITHUB: Abraão Lucas
 
 ### Sprint 4 - 6
 - _Scrum master_: Eduardo Porto  
-- Modelagem BPMN: AlunoX
-- Desenvolvimento dos processos: AlunoK
-- Organização GITHUB: AlunaZ
+- Arquitetura da solução: Gustavo Henrique
+- Protótipos de telas: Eduardo Porto
+- Diagrama de Classes: Abraão Lucas
+- 4.3. Modelo de dados: Samuel Faleiro
+- Tecnologias: Heitor Carlos
+- Organização GITHUB: Eduardo Porto
 
 ### Sprint 7
 - _Scrum master_: Eduardo Porto  
-- Desenvolvedor _front-end_: AlunoX
-- Desenvolvedor _back-end_: AlunoK
-- Testes: AlunaZ
+- Organização: Abraão Lucas
+- Análise de informações: Gustavo Henrique
 
 ### Sprint 3 - 7
 - _Scrum master_: Eduardo Porto  
-- Desenvolvedor _front-end_: AlunoX
-- Desenvolvedor _back-end_: AlunoK
-- Testes: AlunaZ
+- Desenvolvedor _front-end_: Todos os membros
+- Desenvolvedor _back-end_: Todos os membros
+- Testes: Samuel Faleiro
 
-  ### Sprint 6
-- _Scrum master_: Eduardo Porto  
-- Protótipos: AlunoX
-- Desenvolvedor _back-end_: AlunoK
-- Testes: AlunaZ
-
+---
 
 ## 5.1. Quadro de tarefas
 
@@ -101,13 +98,21 @@ Atualizado em: 28/11/2025
 
 Atualizado em: 28/11/2025
 
-| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
-| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Home-Page        | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
-| AlunaZ        | CSS Unificado    | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
-| AlunoY        | Página de login  | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
-| AlunoK        | Script de login  | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
-| AlunaZ        | Banco de dados   | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
+| Responsável   | Tarefa/Requisito            | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----                    |      :----:    | :----:     | :----: | :----:          |
+| Eduardo       | Banco de dados              | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
+| Heitor        | Home-Page                   | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
+| Eduardo       | CSS Unificado               | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
+| Gustavo       | Página de cadastro e login  | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
+| Eduardo       | Script de login             | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
+| Samuel        | Sidebar                     | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
+| Abraão        | Painel Administrativo       | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
+| Heitor        | Feedback                    | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
+| Gustavo       | Músicas curtidas            | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
+| Samuel        | Playlists                   | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
+| Abraão        | TOP 10 semanal              | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
+| Eduardo       | Integração Genius           | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
+| Eduardo       | Integração Spotify          | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
 
 Legenda:
 - ✔️: terminado
@@ -115,10 +120,4 @@ Legenda:
 - ⌛: atrasado
 - ❌: não iniciado
 
-
-
-## Links Úteis
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
-
+---
