@@ -18,6 +18,8 @@ Ela apresenta:
 
 Ao clicar em um card, o usuário pode ouvir um preview de 30 segundos, visualizar a letra no Genius ou abrir a música no Spotify.
 
+![TELA PRINCIPAL DO SISTEMA](../images/TelaPrincipal.png "Tela principal do sitema.")
+
 [`Tela principal do sistema`](images/)
 
 ---
