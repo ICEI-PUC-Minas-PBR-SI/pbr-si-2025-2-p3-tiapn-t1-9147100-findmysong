@@ -4,7 +4,7 @@
 
 `Trabalho Interdisciplinar: Aplicações para Processos de Negócios`
 
-`3º Semestre`
+`3º Período - 2º Semestre de 2025`
 
 O projeto consiste no desenvolvimento de um sistema inovador de busca de músicas que possibilita ao usuário encontrar canções a partir de pequenos trechos de suas letras. Diferente dos aplicativos convencionais, que exigem o nome da música ou do artista, a proposta é oferecer uma ferramenta prática e intuitiva, capaz de localizar a canção desejada mesmo quando a lembrança é limitada a uma única palavra ou frase da letra.
 
@@ -141,7 +141,8 @@ Após realizar uma busca, um formulário pode aparecer solicitando feedback:
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<li><a [href="src/README.md](https://github.com/Duardo-Dudds/FindMySong-frontend.git)"> Código Frontend</a></li>
+<li><a [href="src/README.md](https://github.com/Duardo-Dudds/FindMySong-backend.git)"> Código Backend</a></li>
 
 # Apresentação
 
