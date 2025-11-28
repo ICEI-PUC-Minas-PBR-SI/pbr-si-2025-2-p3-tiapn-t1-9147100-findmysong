@@ -141,8 +141,8 @@ Após realizar uma busca, um formulário pode aparecer solicitando feedback:
 
 # Código
 
-<li><a [href="src/README.md](https://github.com/Duardo-Dudds/FindMySong-frontend.git)"> Código Frontend</a></li>
-<li><a [href="src/README.md](https://github.com/Duardo-Dudds/FindMySong-backend.git)"> Código Backend</a></li>
+<li><a href="https://github.com/Duardo-Dudds/FindMySong-frontend.git"> Código Frontend</a></li>
+<li><a href="https://github.com/Duardo-Dudds/FindMySong-backend.git"> Código Backend</a></li>
 
 # Apresentação
 
