@@ -22,24 +22,8 @@ O backend consome a API do Spotify (para busca de músicas e previews) e o front
 
 ---
 
-## Diagrama de Fluxo (Simplificado)
-
-[ Usuário no Navegador ]
-            |
-            v
-[ Frontend React (Vercel) ]
-            |
-     (axios /api/... )
-            v
-[ Backend Node/Express (Render) ]
-     |                     |
-     v                     v
-[ PostgreSQL ]      [ API Spotify ]
-            |
-            v
-[ Redirecionamento para Genius.com ]
-
-
+## Diagrama de Arquitetura da solução
+![DIAGRAMA DE ARQUITETURA DE SOLUÇÃO](images/DiagramaArquitetura.jpg "Diagrama de arquitetura.")
 
 ---
 
