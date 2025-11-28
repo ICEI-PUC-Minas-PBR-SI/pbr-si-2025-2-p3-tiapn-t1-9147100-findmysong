@@ -20,9 +20,9 @@
 
 ### Sprint 3
 - _Scrum master_: Eduardo Porto  
-- Desenvolvedor _front-end_: AlunoX
-- Desenvolvedor _back-end_: AlunoK
-- Testes: AlunaZ
+- Modelagem BPMN: AlunoX
+- Desenvolvimento dos processos: AlunoK
+- Organização GITHUB: AlunaZ
 
 ### Sprint 4
 - _Scrum master_: Eduardo Porto  
@@ -30,7 +30,13 @@
 - Desenvolvedor _back-end_: AlunoK
 - Testes: AlunaZ
 
-  ### Sprint 5
+### Sprint 5
+- _Scrum master_: Eduardo Porto  
+- Desenvolvedor _front-end_: AlunoX
+- Desenvolvedor _back-end_: AlunoK
+- Testes: AlunaZ
+
+  ### Sprint 6
 - _Scrum master_: Eduardo Porto  
 - Protótipos: AlunoX
 - Desenvolvedor _back-end_: AlunoK
@@ -43,26 +49,41 @@
 
 ## Sprint 1
 
-Atualizado em: 21/04/2024
+Atualizado em: 28/09/2025
 
-| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
-| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Introdução | 01/02/2024     | 07/02/2024 | ✔️    | 05/01/2005      |
-| AlunaZ        | Objetivos    | 03/02/2024     | 10/02/2024 | 📝    |                 |
-| AlunoY        | Histórias de usuário  | 01/01/2024     | 07/01/2005 | ⌛     |                 |
-| AlunoK        | Personas 1  |    01/01/2024        | 12/02/2005 | ❌    |       |
+| Responsável   | Tarefa/Requisito      | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----              |      :----:    | :----:     | :----: | :----:          |
+| Eduardo       | Introdução            | 05/09/2025     | 12/09/2025 | ✔️    | 11/09/2025      |
+| Eduardo       | Objetivos             | 05/09/2025     | 12/09/2025 | ✔️    | 11/09/2025      |
+| Abraão        | Histórias de usuário  | 11/09/2025     | 12/09/2025 | ✔️    | 12/09/2025      |
+| Abraão        | Personas 1            | 11/09/2025     | 12/09/2025 | ✔️    | 12/09/2025      |
+| Samuel        | Requisitos            | 11/09/2025     | 12/09/2025 | ✔️    | 12/09/2025      |
+| Samuel        | Restrições            | 11/09/2025     | 12/09/2025 | ✔️    | 12/09/2025      |
 
 ## Sprint 2
 
-Atualizado em: 21/04/2024
+Atualizado em: 26/09/2025
+
+| Responsável   | Tarefa/Requisito      | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----              |      :----:    | :----:     | :----: | :----:          |
+| Gustavo       | Modelagem AS IS       | 11/09/2025     | 12/09/2025 | ✔️    | 11/09/2025      |
+| Gustavo       | Descrição TO BE       | 11/09/2025     | 12/09/2025 | ✔️    | 11/09/2025      |
+| Heitor        | Processo 1            | 11/09/2025     | 12/09/2025 | ✔️    | 12/09/2025      |
+| Heitor        | Processo 2            | 11/09/2025     | 26/09/2025 | ✔️    | 12/09/2025      |
+| Eduardo       | Processo 3            | 26/09/2025     | 10/10/2025 | ✔️    | 19/09/2025      |
+| Eduardo       | Processo 4            | 26/09/2025     | 10/10/2025 | ✔️    | 19/09/2025      |
+
+
+## Sprint 3 - 7
+
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Home-Page        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
-| AlunaZ        | CSS Unificado    | 03/02/2024     | 10/03/2024 | 📝    |                 |
-| AlunoY        | Página de login  | 01/02/2024     | 07/03/2024 | ⌛     |                 |
-| AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
-
+| AlunaX        | Home-Page        | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
+| AlunaZ        | CSS Unificado    | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
+| AlunoY        | Página de login  | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
+| AlunoK        | Script de login  | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
+| AlunaZ        | Banco de dados   | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
 
 Legenda:
 - ✔️: terminado
