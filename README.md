@@ -22,9 +22,109 @@ Além de facilitar o acesso às músicas, o sistema busca atender diferentes per
 
 * Cleia Marcia Gomes Amaral
 
-## Instruções de utilização
+## Instruções de Utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Esta seção descreve, de forma clara e direta, como qualquer usuário pode acessar e utilizar o sistema **FindMySong**.
+
+### 1. Acesso ao Sistema
+
+Para utilizar o FindMySong, acesse:
+
+**https://find-my-song-frontend.vercel.app/login**
+
+A partir dessa página, todas as funcionalidades principais ficam disponíveis após o login.
+
+---
+
+### 2. Criar Conta
+
+- Na tela inicial, selecione a aba **Sign Up** (Criar conta).  
+- Informe os dados solicitados:  
+  - Nome Completo  
+  - E-mail  
+  - Senha  
+  - Confirmação de Senha  
+- Clique em **Create Account**.  
+- Após o registro bem-sucedido, você será redirecionado automaticamente para a aba de login.
+
+---
+
+### 3. Realizar Login
+
+- Na tela inicial, certifique-se de estar na aba **Sign In**.  
+- Insira seu e-mail e senha cadastrados.  
+- Clique em **Sign In** para acessar o sistema.
+
+---
+
+### 4. Pesquisar Músicas
+
+A pesquisa é a principal funcionalidade do sistema.
+
+- No campo de busca no topo da tela, digite qualquer palavra, frase, nome de artista ou trecho da letra.
+- Os resultados aparecerão em **cards** contendo:
+  - Capa do álbum  
+  - Nome da música  
+  - Artista  
+- Clique no botão **Play** (verde) para ouvir um preview de 30 segundos no player fixo no rodapé.
+
+---
+
+### 5. Curtir Músicas
+
+Caso goste de uma música encontrada:
+
+- Clique no ícone **coração (♥)** no card.  
+- A música será adicionada à sua lista de **Músicas Curtidas**.
+
+---
+
+### 6. Visualizar Biblioteca e Playlists
+
+- Acesse o **menu lateral esquerdo**.  
+- Clique em **Sua Biblioteca**.  
+- Serão exibidas suas playlists e músicas salvas.  
+- Clique em **Músicas Curtidas** para visualizar apenas seus likes.
+
+---
+
+### 7. Criar Playlists
+
+- No menu lateral, clique em **Criar Playlist**.  
+- Informe:
+  - Nome da playlist  
+  - Descrição  
+- Após criar, adicione músicas clicando nos **três pontinhos** nos cards.
+
+---
+
+### 8. Visualizar Letras e Ouvir no Spotify
+
+Em qualquer card de música:
+
+- Clique em **Letra (Genius)** para abrir a letra completa.  
+- Clique em **Spotify** para ouvir a música completa no aplicativo ou site.
+
+---
+
+### 9. Painel Administrativo (Apenas Administradores)
+
+Usuários com permissão especial podem acessar o menu **Admin** para:
+
+- Alterar o **tema** da plataforma (Padrão, Halloween, Natal).  
+- Visualizar **feedbacks** enviados pelos usuários.  
+
+---
+
+### 10. Avaliar o Sistema
+
+Após realizar uma busca, um formulário pode aparecer solicitando feedback:
+
+- Escolha uma nota de **1 a 5 estrelas**.  
+- Insira um comentário opcional.  
+- Clique em **Enviar** para contribuir com a melhoria do sistema.
+
+---
 
 # Documentação
 
@@ -50,10 +150,29 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 ## Histórico de versões
 
-* 0.1.1
-    * CHANGE: Atualização das documentações. Código permaneceu inalterado.
-* 0.1.0
-    * Implementação da funcionalidade X pertencente ao processo P.
-* 0.0.1
-    * Trabalhando na modelagem do processo de negócio.
+### 1.0.0 – Versão Final
+- Implementação completa do Player de Música Global com Context API.  
+- Correção de bugs de layout (sidebar e padding).  
+- Integração final com Spotify (`market=BR`).  
+- Finalização da documentação e diagramas.
 
+### 0.4.0
+- Adição do Painel Administrativo com gestão de temas e feedbacks.  
+- Implementação da funcionalidade de criar e gerenciar Playlists.
+
+### 0.3.0
+- Refatoração da interface utilizando **shadcn/ui**.  
+- Nova tela de Autenticação unificada (**AuthPage**).
+
+### 0.2.0
+- Integração com a API do Spotify para busca de músicas.  
+- Integração com o Genius para exibição de letras externas.
+
+### 0.1.0
+- Configuração inicial do ambiente (React + Node.js).  
+- Estruturação do Banco de Dados PostgreSQL.
+
+### 0.0.1
+- Definição do escopo e modelagem dos processos de negócio.
+
+---
