@@ -18,7 +18,7 @@ Ela apresenta:
 
 Ao clicar em um card, o usuário pode ouvir um preview de 30 segundos, visualizar a letra no Genius ou abrir a música no Spotify.
 
-![TELA PRINCIPAL DO SISTEMA](images/TelaPrincipal.png "Tela principal do sitema.")
+![TELA PRINCIPAL DO SISTEMA](images/TelaPrincipal.png "Tela principal do sitema")
 
 ---
 
@@ -31,8 +31,8 @@ A tela de autenticação fornece duas abas:
 - **Sign In (Login):** acesso à conta existente.  
 - **Sign Up (Cadastro):** criação de uma nova conta com nome, e-mail e senha.
 
-[`Tela de Login`](images/)
-[`Tela de Cadastro`](images/)
+![TELA DE LOGIN](images/TelaLogin.png "Tela login")
+![TELA DE CADASTRO](images/TelaCadastro.png "Tela cadastro")
 
 ---
 
@@ -43,8 +43,8 @@ _Descrição das telas relativas à busca e descoberta de músicas._
 A tela de busca permite encontrar músicas por trecho, nome ou artista.  
 Os resultados são exibidos em cards com opções para visualizar letra, ouvir preview e adicionar à playlist.
 
-[`Tela de Busca`](images/)
-[`Resultados da Busca`](images/)
+![TELA DE BUSCA](images/TelaBusca.png "Tela busca")
+![TELA DE RESULTADOS](images/TelaPesquisa.png "Tela resultados")
 
 ---
 
@@ -58,7 +58,7 @@ O painel administrativo contém abas para:
 - Configurar eventos.  
 - Ajustar parâmetros gerais da plataforma.
 
-[`Painel Administrativo`](images/)
+![TELA DE PAINEL ADMINISTRATIVO](images/TelaPainel.png "Tela painel")
 
 ---
 
@@ -67,6 +67,8 @@ O painel administrativo contém abas para:
 _Descrição da tela de feedback do usuário._
 
 Após uma busca, o usuário pode avaliar a precisão dos resultados com nota de **1 a 5 estrelas**, além de deixar um comentário opcional.
+
+![TELA DE FEEDBACK](images/TelaFeedback.png "Tela feedback")
 
 [`Tela de Feedback`](images/)
 
@@ -85,4 +87,6 @@ A aba **Feedback** no painel administrativo exibe uma tabela com:
 
 O administrador pode também exportar os dados em **CSV**.
 
-[`Tela de Relatório de Feedback`](images/)
+![TELA DE RELATÓRIO DE FEEDBACK](images/TelaRelatorio.png "Tela relatório")
+
+---
