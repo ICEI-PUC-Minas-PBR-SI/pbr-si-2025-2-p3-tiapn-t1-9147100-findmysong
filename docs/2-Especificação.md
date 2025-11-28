@@ -53,36 +53,40 @@ Esta seção apresenta as especificações do sistema de busca de músicas por t
 
 
 ## 2.3. Requisitos
-  
-### Requisitos Funcionais (RF)  
 
-| ID     | Descrição do Requisito                                         | Prioridade |  
-|--------|----------------------------------------------------------------|------------|  
-| RF-001 | Permitir a busca de músicas por trecho de letra                | ALTA       |  
-| RF-002 | Exibir título, artista e opções de streaming                   | ALTA       |  
-| RF-003 | Permitir feedback dos usuários sobre os resultados             | MÉDIA      |  
-| RF-004 | Gerar relatórios de uso (músicas/artistas mais buscados)       | MÉDIA      |  
-| RF-005 | Permitir que administradores atualizem layout e cadastros      | ALTA       |  
-| RF-006 | Direcionar para plataformas de streaming oficiais              | ALTA       |  
+### Requisitos Funcionais (RF)
 
-### Requisitos Não Funcionais (RNF)  
-
-| ID      | Descrição do Requisito                                         | Prioridade |  
-|---------|----------------------------------------------------------------|------------|  
-| RNF-001 | O sistema deve ser responsivo (desktop e mobile)              | ALTA       |  
-| RNF-002 | O tempo de resposta deve ser inferior a 3 segundos por busca  | MÉDIA      |  
-| RNF-003 | A interface deve ser intuitiva e acessível                    | ALTA       |  
-| RNF-004 | O sistema deve respeitar direitos autorais (sem exibir mídia direta) | ALTA  |  
-| RNF-005 | O sistema deve suportar pelo menos 500 buscas simultâneas     | MÉDIA      |  
+| ID     | Descrição do Requisito                                                                                      | Prioridade |
+|--------|--------------------------------------------------------------------------------------------------------------|------------|
+| RF-001 | Permitir que o usuário realize buscas de músicas integradas à API do Spotify (por nome, artista ou trecho). | ALTA       |
+| RF-002 | Exibir resultados detalhados em cards (capa, título, artista) com links diretos para o Spotify e para a letra no Genius. | ALTA       |
+| RF-003 | Reproduzir um trecho (preview de 30s) da música em um player global persistente ao clicar no card.          | ALTA       |
+| RF-004 | Permitir o cadastro e login de usuários (autenticação própria com JWT).                                     | ALTA       |
+| RF-005 | Permitir que usuários logados criem playlists personalizadas e adicionem músicas a elas.                    | ALTA       |
+| RF-006 | Permitir que usuários logados salvem músicas em sua biblioteca ("Liked Songs").                             | MÉDIA      |
+| RF-007 | Oferecer um painel administrativo para gerenciamento de temas visuais (Halloween, Natal, Padrão).           | MÉDIA      |
+| RF-008 | Coletar feedback dos usuários (avaliação de 1 a 5 estrelas) sobre a precisão da busca e exibir relatório para o administrador. | BAIXA      |
 
 ---
 
-## 2.4. Restrições  
+### Requisitos Não Funcionais (RNF)
 
-| ID   | Restrição                                                                 |  
-|------|----------------------------------------------------------------------------|  
-| 01   | O projeto deverá ser entregue até o final do semestre letivo.             |  
-| 02   | Não será desenvolvido um módulo de backend robusto, apenas integração com APIs externas. |  
-| 03   | O sistema deverá operar utilizando apenas APIs oficiais/licenciadas de música. |  
-| 04   | O desenvolvimento deve ser feito em ambiente web, com suporte multiplataforma. |  
+| ID      | Descrição do Requisito                                                                                           | Prioridade |
+|---------|-------------------------------------------------------------------------------------------------------------------|------------|
+| RNF-001 | A interface deve ser responsiva e adaptável a dispositivos móveis (sidebar retrátil/menu hambúrguer).             | ALTA       |
+| RNF-002 | A aplicação deve ser uma SPA (Single Page Application) desenvolvida em React, garantindo fluidez sem recarregamento. | ALTA       |
+| RNF-003 | O sistema deve persistir as preferências do usuário (como estado da sidebar) localmente.                          | MÉDIA      |
+| RNF-004 | O backend deve atuar como um gateway seguro para ocultar as chaves de API do Spotify.                             | ALTA       |
+| RNF-005 | A comunicação entre frontend e backend deve ser segura (HTTPS) e protegida contra CORS indevido.                  | ALTA       |
 
+---
+
+## 2.4. Restrições
+
+| ID   | Restrição                                                                                                      |
+|------|-----------------------------------------------------------------------------------------------------------------|
+| 01   | O projeto deverá ser entregue até o final do semestre letivo.                                                  |
+| 02   | O sistema não armazenará arquivos de áudio (MP3) no banco de dados; apenas links e metadados.                   |
+| 03   | O sistema dependerá da disponibilidade da API do Spotify para busca e reprodução dos previews.                  |
+| 04   | O frontend deve utilizar a biblioteca de componentes shadcn/ui para a interface de autenticação.                |
+| 05   | A hospedagem será dividida: Frontend na Vercel e Backend/Banco de Dados no Render.                              |
