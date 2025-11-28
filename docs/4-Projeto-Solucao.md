@@ -393,21 +393,6 @@ Ferramentas
 Fluxo de Interação das Tecnologias
 
 
-[ Usuário Navegador ]
-        |
-        v
-[ Frontend React - Vercel ]
-        |
-   (axios /api/...)
-        v
-[ Backend Node/Express - Render ]
-        |
-   +----+-------------------+
-   |                        |
-   v                        v
-[ PostgreSQL ]        [ API Spotify ]
-        |
-        v
-[ Genius.com - Letras ]
+![FLUXO DE TECNOLOGIAS](images/FluxoTecnologias.jpg "Fluxo tecnologias")
 
 
