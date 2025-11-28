@@ -4,7 +4,7 @@
 
 ## 5.1. Divisão de Papéis
 
-> Apresente a divisão de papéis entre os membros do grupo em cada sprint. O desejável é que, em cada sprint, o aluno assuma papéis diferentes na disciplina. Siga o modelo do exemplo abaixo:
+> Divisão por Sprint:
 
 ### Sprint 1
 - _Scrum master_: Eduardo Porto
