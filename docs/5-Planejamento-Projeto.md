@@ -100,19 +100,19 @@ Atualizado em: 28/11/2025
 
 | Responsável   | Tarefa/Requisito            | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----                    |      :----:    | :----:     | :----: | :----:          |
-| Eduardo       | Banco de dados              | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
-| Heitor        | Home-Page                   | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
-| Eduardo       | CSS Unificado               | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
-| Gustavo       | Página de cadastro e login  | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
-| Eduardo       | Script de login             | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
-| Samuel        | Sidebar                     | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
-| Abraão        | Painel Administrativo       | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
-| Heitor        | Feedback                    | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
-| Gustavo       | Músicas curtidas            | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
-| Samuel        | Playlists                   | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
-| Abraão        | TOP 10 semanal              | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
-| Eduardo       | Integração Genius           | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
-| Eduardo       | Integração Spotify          | 31/10/2025     | 05/12/2025 | 📝    | xx/12/2025      |
+| Eduardo       | Banco de dados              | 31/10/2025     | 05/12/2025 | ✔️    | 05/12/2025      |
+| Heitor        | Home-Page                   | 31/10/2025     | 05/12/2025 | ✔️    | 05/12/2025      |
+| Eduardo       | CSS Unificado               | 31/10/2025     | 05/12/2025 | ✔️    | 05/12/2025      |
+| Gustavo       | Página de cadastro e login  | 31/10/2025     | 05/12/2025 | ✔️    | 05/12/2025      |
+| Eduardo       | Script de login             | 31/10/2025     | 05/12/2025 | ✔️    | 05/12/2025      |
+| Samuel        | Sidebar                     | 31/10/2025     | 05/12/2025 | ✔️    | 05/12/2025      |
+| Abraão        | Painel Administrativo       | 31/10/2025     | 05/12/2025 | ✔️    | 05/12/2025      |
+| Heitor        | Feedback                    | 31/10/2025     | 05/12/2025 | ✔️    | 05/12/2025      |
+| Gustavo       | Músicas curtidas            | 31/10/2025     | 05/12/2025 | ✔️    | 05/12/2025      |
+| Samuel        | Playlists                   | 31/10/2025     | 05/12/2025 | ✔️    | 05/12/2025      |
+| Abraão        | TOP 10 semanal              | 31/10/2025     | 05/12/2025 | ✔️    | 05/12/2025      |
+| Eduardo       | Integração Genius           | 31/10/2025     | 05/12/2025 | ✔️    | 05/12/2025      |
+| Eduardo       | Integração Spotify          | 31/10/2025     | 05/12/2025 | ✔️    | 05/12/2025      |
 
 Legenda:
 - ✔️: terminado
